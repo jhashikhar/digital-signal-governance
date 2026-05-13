@@ -2,7 +2,7 @@
 
 ## Intellectual Property Notice
 
-This repository is maintained by Shikhar Jha / Michvi LLP as a **ppublic conceptual reference resource** for the Digital Signal Governance (DSG) category.
+This repository is maintained by Shikhar Jha / Michvi LLP as a **public conceptual reference resource** for the Digital Signal Governance (DSG) category.
 
 ---
 
