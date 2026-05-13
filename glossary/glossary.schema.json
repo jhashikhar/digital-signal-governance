@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/jhashikhar/digital-signal-governance/blob/main/glossary/glossary.schema.json",
+  "title": "Digital Signal Governance Glossary Schema",
+  "description": "JSON Schema for validating glossary entries in the Digital Signal Governance public authority repository.",
+  "type": "object",
+  "required": ["framework", "version", "maintainer", "terms"],
+  "properties": {
+    "framework": {
+      "type": "string",
+      "description": "Name of the governance framework this glossary belongs to"
+    },
+    "version": {
+      "type": "string",
+      "description": "Semantic version of this glossary",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "maintainer": {
+      "type": "object",
+      "required": ["name", "organization", "repository"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Full name of the primary maintainer"
+        },
+        "organization": {
+          "type": "string",
+          "description": "Organization responsible for this glossary"
+        },
+        "repository": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL of the authoritative repository"
+        }
+      },
+      "additionalProperties": false
+    },
+    "terms": {
+      "type": "array",
+      "description": "Array of glossary term entries",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/GlossaryTerm"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "GlossaryTerm": {
+      "type": "object",
+      "required": ["id", "term", "definition", "governance_relevance", "category", "related_terms", "type"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique, kebab-case identifier for this term",
+          "pattern": "^[a-z][a-z0-9-]*$"
+        },
+        "term": {
+          "type": "string",
+          "description": "Display name of the term in Title Case"
+        },
+        "definition": {
+          "type": "string",
+          "description": "Concise, conceptual, executive-readable definition. Must not contain implementation detail.",
+          "minLength": 30,
+          "maxLength": 600
+        },
+        "governance_relevance": {
+          "type": "string",
+          "description": "Explanation of why this concept matters from a governance perspective. Non-operational.",
+          "minLength": 30,
+          "maxLength": 600
+        },
+        "category": {
+          "type": "string",
+          "description": "Taxonomy category this term belongs to",
+          "enum": [
+            "signal-governance",
+            "identity-governance",
+            "consent-governance",
+            "measurement-governance",
+            "governance-risk",
+            "adjacent-framework"
+          ]
+        },
+        "related_terms": {
+          "type": "array",
+          "description": "List of related term IDs",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]*$"
+          },
+          "minItems": 0,
+          "maxItems": 10
+        },
+        "type": {
+          "type": "string",
+          "description": "Whether this is a core DSG term or a relational reference to an adjacent framework",
+          "enum": ["core", "relational"]
+        },
+        "note": {
+          "type": "string",
+          "description": "Optional clarifying note, e.g. for relational terms"
+        },
+        "deprecated": {
+          "type": "boolean",
+          "description": "Whether this term has been deprecated in a later version"
+        },
+        "superseded_by": {
+          "type": "string",
+          "description": "ID of the term that replaces this one, if deprecated",
+          "pattern": "^[a-z][a-z0-9-]*$"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
