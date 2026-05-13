@@ -1,0 +1,166 @@
+{
+  "$schema": "./glossary.schema.json",
+  "framework": "Digital Signal Governance",
+  "version": "1.0.0",
+  "maintainer": {
+    "name": "Shikhar Jha",
+    "organization": "Michvi LLP",
+    "repository": "https://github.com/jhashikhar/digital-signal-governance"
+  },
+  "terms": [
+    {
+      "id": "signal-integrity",
+      "term": "Signal Integrity",
+      "definition": "The governance condition in which a signal accurately and consistently represents what it is attributed to represent, within the scope and context for which it was generated.",
+      "governance_relevance": "Signal integrity is the foundational condition for all downstream reliance. Where signal integrity cannot be established, decisions, measurements, and attributions that depend on that signal inherit unresolved uncertainty.",
+      "category": "signal-governance",
+      "related_terms": ["signal-lifecycle", "signal-admission", "interpretive-integrity"],
+      "type": "core"
+    },
+    {
+      "id": "signal-lifecycle",
+      "term": "Signal Lifecycle",
+      "definition": "The complete span of governance-relevant stages through which a signal passes: from the conditions of its generation, through its admission into a system, its interpretation and propagation, to its ultimate reliance by downstream processes.",
+      "governance_relevance": "Governance failures can occur at any stage of the signal lifecycle. The lifecycle framing makes visible the full range of conditions that governance must address beyond the point of reporting or use.",
+      "category": "signal-governance",
+      "related_terms": ["signal-integrity", "signal-admission", "signal-dependency"],
+      "type": "core"
+    },
+    {
+      "id": "signal-admission",
+      "term": "Signal Admission",
+      "definition": "The governance condition governing whether, and under what criteria, a signal is accepted into a system or data environment for subsequent use, interpretation, or reliance.",
+      "governance_relevance": "Signal admission is a gate at which governance controls can be applied. Where admission criteria are absent, ambiguous, or inconsistently applied, signals of uncertain provenance or quality may propagate without appropriate scrutiny.",
+      "category": "signal-governance",
+      "related_terms": ["signal-lifecycle", "signal-integrity", "observability-gaps"],
+      "type": "core"
+    },
+    {
+      "id": "signal-dependency",
+      "term": "Signal Dependency",
+      "definition": "A governance condition in which the validity, usefulness, or interpretation of one signal depends on the integrity, availability, or correct classification of one or more other signals.",
+      "governance_relevance": "Signal dependencies create cascading governance risk. Where a foundational signal degrades, all dependent signals inherit that degradation, often without visible indication at the point of downstream reliance.",
+      "category": "signal-governance",
+      "related_terms": ["signal-lifecycle", "attribution-dependency", "structural-drift"],
+      "type": "core"
+    },
+    {
+      "id": "signal-conflict",
+      "term": "Signal Conflict",
+      "definition": "A governance condition in which two or more signals that relate to the same event, entity, or condition produce irreconcilably different values or classifications, without a governance mechanism to adjudicate between them.",
+      "governance_relevance": "Signal conflict indicates the absence of authoritative adjudication criteria. In the absence of conflict resolution governance, downstream processes surface ambiguity that propagates into reporting, measurement, and decision-making.",
+      "category": "signal-governance",
+      "related_terms": ["signal-ambiguity", "signal-integrity", "interpretive-integrity"],
+      "type": "core"
+    },
+    {
+      "id": "signal-ambiguity",
+      "term": "Signal Ambiguity",
+      "definition": "A governance condition in which a signal's meaning, scope, or attribution is insufficiently specified to permit consistent interpretation across the contexts in which it is used.",
+      "governance_relevance": "Signal ambiguity is structurally distinct from signal error. An ambiguous signal may be technically well-formed but structurally underdetermined — its interpretation varies by context, consumer, or assumption.",
+      "category": "signal-governance",
+      "related_terms": ["signal-conflict", "interpretive-integrity", "observability-gaps"],
+      "type": "core"
+    },
+    {
+      "id": "identity-continuity",
+      "term": "Identity Continuity",
+      "definition": "The governance condition in which an entity is represented consistently and persistently across signals, systems, and time periods in which it appears.",
+      "governance_relevance": "Identity continuity is a prerequisite for any measurement, attribution, or governance process that depends on associating signals with entities over time.",
+      "category": "identity-governance",
+      "related_terms": ["identity-fragmentation", "consent-architecture", "structural-drift"],
+      "type": "core"
+    },
+    {
+      "id": "identity-fragmentation",
+      "term": "Identity Fragmentation",
+      "definition": "A governance condition in which a single real-world entity is represented by multiple, unconnected, or inconsistently classified signal representations across one or more systems, resulting in an inability to coherently attribute signals to that entity.",
+      "governance_relevance": "Identity fragmentation produces measurement distortions, compliance risks, and attribution failures that are structurally invisible at the point of downstream reporting.",
+      "category": "identity-governance",
+      "related_terms": ["identity-continuity", "consent-architecture", "signal-dependency"],
+      "type": "core"
+    },
+    {
+      "id": "consent-architecture",
+      "term": "Consent Architecture",
+      "definition": "The governance structure governing how consent or equivalent permission states are established, recorded, transmitted, and honored across a digital signal environment.",
+      "governance_relevance": "Consent architecture is a precondition for the legitimate generation and use of many signals. A consent architecture that fails to propagate consent state consistently creates structural misalignment between what entities have authorized and what signal environments assume.",
+      "category": "consent-governance",
+      "related_terms": ["consent-state-alignment", "identity-continuity", "signal-admission"],
+      "type": "core"
+    },
+    {
+      "id": "consent-state-alignment",
+      "term": "Consent-State Alignment",
+      "definition": "The governance condition in which the consent status of an entity — as recorded, represented, and honored — is consistent and current across all systems, signals, and processes that depend on that consent.",
+      "governance_relevance": "Consent-state misalignment is among the most consequential governance failures in regulated signal environments, as it creates legal, regulatory, and ethical exposure that is structurally difficult to detect from within reporting or operational systems.",
+      "category": "consent-governance",
+      "related_terms": ["consent-architecture", "signal-admission", "governance-exposure"],
+      "type": "core"
+    },
+    {
+      "id": "measurement-architecture",
+      "term": "Measurement Architecture",
+      "definition": "The governance structure governing how signals are assembled, defined, counted, attributed, and represented for measurement purposes — including the rules and conditions that determine what a measured value means and under what assumptions it is valid.",
+      "governance_relevance": "Measurement architecture is a governance layer that precedes and conditions all reporting and optimization. Where measurement architecture is undefined or undocumented, reported values carry interpretive uncertainty invisible to downstream consumers.",
+      "category": "measurement-governance",
+      "related_terms": ["attribution-dependency", "signal-integrity", "interpretive-integrity"],
+      "type": "core"
+    },
+    {
+      "id": "attribution-dependency",
+      "term": "Attribution Dependency",
+      "definition": "A governance condition in which an attribution — the assignment of a signal, outcome, or value to a cause, entity, or action — depends on the integrity, availability, or correct representation of one or more foundational signals or governance conditions.",
+      "governance_relevance": "Attribution models that depend on signals with unresolved integrity, identity fragmentation, or consent-state misalignment produce attributions that carry embedded governance failures.",
+      "category": "measurement-governance",
+      "related_terms": ["measurement-architecture", "signal-dependency", "governance-exposure"],
+      "type": "core"
+    },
+    {
+      "id": "governance-exposure",
+      "term": "Governance Exposure",
+      "definition": "The degree to which an organization's decisions, measurements, or reported positions are dependent on signal conditions that have not been verified, documented, or governed to an explicitly defined standard — creating unquantified risk in downstream reliance.",
+      "governance_relevance": "Governance exposure represents the gap between the governance assurances implicitly assumed by downstream reliance and the governance conditions that actually exist at the signal layer. It is often latent until surfaced by audit or inquiry.",
+      "category": "governance-risk",
+      "related_terms": ["structural-drift", "observability-gaps", "signal-dependency"],
+      "type": "core"
+    },
+    {
+      "id": "structural-drift",
+      "term": "Structural Drift",
+      "definition": "A governance condition in which the underlying structure of a signal environment — the identities, consent states, signal sources, classification rules, or dependency relationships — changes over time in ways that are not reflected in the governance assumptions, documentation, or controls that downstream processes rely upon.",
+      "governance_relevance": "Structural drift is a temporal governance failure. It is particularly dangerous because it is invisible in retrospective reporting — historical data appears stable even as the governance conditions that produced it have shifted.",
+      "category": "governance-risk",
+      "related_terms": ["governance-exposure", "identity-continuity", "signal-dependency"],
+      "type": "core"
+    },
+    {
+      "id": "observability-gaps",
+      "term": "Observability Gaps",
+      "definition": "Conditions in a signal environment in which the governance state — including signal integrity, consent alignment, identity continuity, and measurement validity — cannot be observed, verified, or audited through available means.",
+      "governance_relevance": "Observability gaps are governance failures of a structural kind: not failures of the signal itself, but failures of the governance infrastructure's capacity to see and assess signal conditions.",
+      "category": "governance-risk",
+      "related_terms": ["governance-exposure", "signal-integrity", "structural-drift"],
+      "type": "core"
+    },
+    {
+      "id": "interpretive-integrity",
+      "term": "Interpretive Integrity",
+      "definition": "The governance condition in which a signal is interpreted consistently, in accordance with its defined meaning and the governance conditions under which it was generated, across all contexts and consumers that rely upon it.",
+      "governance_relevance": "Without interpretive integrity, the same signal may produce different conclusions in different contexts, with no mechanism to identify or adjudicate the discrepancy.",
+      "category": "signal-governance",
+      "related_terms": ["signal-integrity", "signal-ambiguity", "measurement-architecture"],
+      "type": "core"
+    },
+    {
+      "id": "design-time-governance",
+      "term": "Design-Time Governance",
+      "definition": "Governance applied at the stage when systems, architectures, and signal environments are being designed or configured — prior to operational deployment and signal generation.",
+      "governance_relevance": "Design-Time Governance is an adjacent discipline to DSG. Where DSG addresses governance conditions affecting signals in operation, Design-Time Governance addresses governance decisions embedded before signals begin flowing. Failures of Design-Time Governance frequently manifest as DSG conditions during operation.",
+      "category": "adjacent-framework",
+      "related_terms": ["signal-admission", "consent-architecture", "measurement-architecture"],
+      "type": "relational",
+      "note": "This term is included for relational context only. It is an adjacent framework to DSG, not a DSG category term."
+    }
+  ]
+}
