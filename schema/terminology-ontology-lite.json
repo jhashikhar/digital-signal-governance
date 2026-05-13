@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "https://json-schema.org/draft/2020-12/schema",
+  "ontology": {
+    "id": "https://github.com/jhashikhar/digital-signal-governance/schema/terminology-ontology-lite",
+    "title": "Digital Signal Governance Terminology Ontology (Lite)",
+    "description": "A lightweight terminology ontology for the Digital Signal Governance framework. Defines term categories, relationships, and hierarchy for machine consumption.",
+    "version": "1.0.0",
+    "maintainer": "Michvi LLP",
+    "license": "Public Conceptual Reference License"
+  },
+  "categories": [
+    {
+      "id": "signal-governance",
+      "label": "Signal Governance",
+      "description": "Conditions governing how signals are formed, admitted, maintained, and interpreted",
+      "parent": null,
+      "terms": [
+        "signal-integrity",
+        "signal-lifecycle",
+        "signal-admission",
+        "signal-dependency",
+        "signal-conflict",
+        "signal-ambiguity",
+        "interpretive-integrity"
+      ]
+    },
+    {
+      "id": "identity-governance",
+      "label": "Identity Governance",
+      "description": "Conditions governing how entities are represented consistently and persistently across signal environments",
+      "parent": null,
+      "terms": [
+        "identity-continuity",
+        "identity-fragmentation"
+      ]
+    },
+    {
+      "id": "consent-governance",
+      "label": "Consent Governance",
+      "description": "Conditions governing how consent is established, recorded, propagated, and honored",
+      "parent": null,
+      "terms": [
+        "consent-architecture",
+        "consent-state-alignment"
+      ]
+    },
+    {
+      "id": "measurement-governance",
+      "label": "Measurement Governance",
+      "description": "Conditions governing how measurements are constructed from signals and what validity conditions apply to resulting values",
+      "parent": null,
+      "terms": [
+        "measurement-architecture",
+        "attribution-dependency"
+      ]
+    },
+    {
+      "id": "governance-risk",
+      "label": "Governance Risk",
+      "description": "Conditions describing organizational exposure arising from inadequate signal governance",
+      "parent": null,
+      "terms": [
+        "governance-exposure",
+        "structural-drift",
+        "observability-gaps"
+      ]
+    },
+    {
+      "id": "adjacent-framework",
+      "label": "Adjacent Framework",
+      "description": "Governance frameworks related to but distinct from DSG",
+      "parent": null,
+      "terms": [
+        "design-time-governance"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "type": "depends_on",
+      "label": "Depends On",
+      "description": "Term A's validity or adequacy presupposes Term B's governance condition"
+    },
+    {
+      "type": "precedes",
+      "label": "Precedes",
+      "description": "Term A's governance condition operates before Term B in time or logical sequence"
+    },
+    {
+      "type": "manifests_as",
+      "label": "Manifests As",
+      "description": "Failure of Term A's governance condition commonly produces Term B as a consequence"
+    },
+    {
+      "type": "adjacent_to",
+      "label": "Adjacent To",
+      "description": "Term A belongs to a related but distinct discipline from Term B"
+    },
+    {
+      "type": "related_to",
+      "label": "Related To",
+      "description": "Term A and Term B are conceptually related within the DSG framework"
+    }
+  ],
+  "term_relationships": [
+    { "from": "signal-lifecycle", "to": "signal-integrity", "type": "depends_on" },
+    { "from": "signal-lifecycle", "to": "signal-admission", "type": "depends_on" },
+    { "from": "signal-admission", "to": "signal-integrity", "type": "precedes" },
+    { "from": "signal-dependency", "to": "signal-integrity", "type": "depends_on" },
+    { "from": "signal-dependency", "to": "governance-exposure", "type": "manifests_as" },
+    { "from": "signal-conflict", "to": "interpretive-integrity", "type": "related_to" },
+    { "from": "signal-ambiguity", "to": "interpretive-integrity", "type": "related_to" },
+    { "from": "identity-continuity", "to": "consent-architecture", "type": "depends_on" },
+    { "from": "identity-fragmentation", "to": "governance-exposure", "type": "manifests_as" },
+    { "from": "identity-fragmentation", "to": "identity-continuity", "type": "related_to" },
+    { "from": "consent-architecture", "to": "consent-state-alignment", "type": "precedes" },
+    { "from": "consent-state-alignment", "to": "governance-exposure", "type": "manifests_as" },
+    { "from": "measurement-architecture", "to": "signal-integrity", "type": "depends_on" },
+    { "from": "measurement-architecture", "to": "identity-continuity", "type": "depends_on" },
+    { "from": "attribution-dependency", "to": "measurement-architecture", "type": "depends_on" },
+    { "from": "attribution-dependency", "to": "governance-exposure", "type": "manifests_as" },
+    { "from": "structural-drift", "to": "governance-exposure", "type": "manifests_as" },
+    { "from": "structural-drift", "to": "observability-gaps", "type": "related_to" },
+    { "from": "observability-gaps", "to": "governance-exposure", "type": "related_to" },
+    { "from": "design-time-governance", "to": "consent-architecture", "type": "precedes" },
+    { "from": "design-time-governance", "to": "measurement-architecture", "type": "precedes" },
+    { "from": "design-time-governance", "to": "identity-continuity", "type": "precedes" },
+    { "from": "design-time-governance", "to": "signal-admission", "type": "precedes" }
+  ],
+  "upstream_downstream": {
+    "description": "DSG positions governance conditions relative to downstream operations. All DSG terms are upstream of the following functions.",
+    "downstream_of_all_dsg_terms": [
+      "reporting",
+      "attribution_modeling",
+      "optimization",
+      "automation",
+      "downstream_operational_interpretation",
+      "analytics"
+    ]
+  }
+}
