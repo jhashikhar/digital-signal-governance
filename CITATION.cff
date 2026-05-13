@@ -53,7 +53,7 @@ keywords:
   - consent-state alignment
 
 preferred-citation:
-  type: generic
+  type: software
   authors:
     - family-names: Jha
       given-names: Shikhar
