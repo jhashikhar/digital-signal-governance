@@ -7,15 +7,13 @@ Published by Shikhar Jha in association with Michvi LLP | Version 1.0
 
 ## Overview
 
-Identity Governance is the DSG taxonomy branch concerned with governance conditions affecting whether entities referenced within digital signal environments are represented consistently, persistently, and coherently across signals, systems, and time.
+Identity Governance is the DSG taxonomy branch concerned with governance conditions affecting whether entities referenced across digital signal environments are represented consistently, persistently, and coherently across systems, contexts, and time.
 
-Entities may include persons, devices, accounts, sessions, or other units relied upon for signal association.
+Within DSG, Identity Governance is not concerned with authentication, credential management, or access control.
 
-Identity Governance is not equivalent to authentication, access control, or identity security.
+It addresses governance conditions affecting whether "the same entity" remains structurally recognizable across signal-dependent environments.
 
-It addresses governance conditions affecting whether “the same entity” remains structurally recognizable across signal environments, and the consequences when that condition fails.
-
-Identity Governance failures are structurally consequential because downstream reliance often assumes stable entity coherence even where governance conditions do not support that assumption.
+Identity governance failures are among the most consequential governance conditions in digital signal environments because downstream measurement, attribution, consent governance, and operational reliance frequently assume stable entity continuity.
 
 ---
 
@@ -26,15 +24,15 @@ The following terms constitute the core Identity Governance branch of the DSG ta
 | Canonical DSG Term | Definition Summary |
 |-------------------|-------------------|
 | **Identity Continuity** | Governance condition in which an entity is represented consistently and persistently across signals, systems, and time |
-| **Identity Fragmentation** | Governance condition in which a single entity is represented through multiple, disconnected, or inconsistently classified representations |
+| **Identity Fragmentation** | Governance condition in which a single real-world entity is represented through multiple, unconnected, or inconsistently classified signal representations |
 
 ---
 
 ## Structural Position Within DSG
 
-Identity Governance addresses governance conditions affecting entity coherence within signal environments.
+Identity Governance addresses governance conditions affecting entity coherence across digital signal environments.
 
-It operates as a specialized governance branch within the broader DSG framework.
+It operates as a specialized DSG branch focused on entity representation.
 
 ---
 
@@ -42,53 +40,39 @@ It operates as a specialized governance branch within the broader DSG framework.
 
 Identity representations are themselves signals.
 
-Accordingly, Signal Governance conditions such as integrity, admission, lifecycle governance, ambiguity governance, dependency governance, and interpretive consistency directly affect identity governance conditions.
+Identity Governance depends upon Signal Governance because identity-related signals must maintain integrity, admission coherence, lifecycle consistency, and interpretive integrity.
 
-Identity Governance may therefore be understood as a specialized governance application operating within the broader signal layer.
+Failures in signal governance frequently manifest as identity governance failures.
 
 ---
 
 ### Relationship to Consent Governance
 
-Consent Governance depends heavily upon Identity Governance because authorization states attach to entities.
+Consent Governance depends heavily upon Identity Governance because consent states attach to entities.
 
-Where identity fragmentation exists, consent states may associate inconsistently across fragmented representations of the same entity.
-
-This creates structural consent misalignment even where consent collection mechanisms appear correct.
+Where identity continuity fails, consent states may attach inconsistently across fragmented entity representations, creating structural consent-state misalignment.
 
 ---
 
 ### Relationship to Measurement Governance
 
-Measurement Governance frequently depends upon Identity Governance because many measurements assume persistent association between signals and entities.
+Measurement Governance depends on Identity Governance because many measurement assumptions rely on stable entity association across time and systems.
 
-Where identity continuity fails, downstream measurements may inherit governance defects without visible indication at the reporting layer.
+Where identity fragmentation exists, measurement outputs may embed unresolved governance uncertainty.
 
 ---
 
 ### Relationship to Governance Risk
 
-Governance Risk conditions emerge where identity governance failures become organizationally consequential.
-
-Identity fragmentation, degraded continuity, or structurally unverifiable entity representations may create governance exposure across multiple downstream functions.
+Identity Governance failures may produce governance exposure where downstream organizational reliance assumes stable entity coherence that governance conditions do not support.
 
 ---
 
-## Identity Governance Boundary
+## Boundary Note
 
-Identity Governance does not define authentication systems, access management controls, security identity frameworks, or implementation mechanisms for entity resolution.
+Identity Governance does not define authentication systems, access management, credential controls, or technical identity infrastructure implementation.
 
-It defines conceptual governance conditions affecting structural entity coherence in digital signal environments.
-
----
-
-## Identity as Governance Dependency
-
-Many downstream assumptions depend implicitly upon identity coherence.
-
-Where organizations assume continuity without governance assurance, structural governance exposure emerges.
-
-Identity Governance therefore functions as a foundational dependency for consent integrity, measurement validity, attribution coherence, and broader governance reliability.
+It defines conceptual governance conditions affecting entity continuity and coherence within digital signal environments.
 
 ---
 
