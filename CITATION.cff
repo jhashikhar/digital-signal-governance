@@ -3,8 +3,11 @@ message: >-
   If you use or reference the Digital Signal Governance framework,
   terminology, or taxonomic structure from this repository, please
   cite it using the metadata below.
+
 type: generic
+
 title: "Digital Signal Governance: Conceptual Framework Repository"
+
 abstract: >-
   Digital Signal Governance (DSG) is a governance framework that examines
   the conditions under which signals are generated, admitted, interpreted,
@@ -13,15 +16,18 @@ abstract: >-
   conditions for the DSG category. It is intended as a public reference
   for researchers, auditors, governance practitioners, and executives
   working with digital signal ecosystems.
+
 authors:
   - family-names: Jha
     given-names: Shikhar
-    affiliation: Michvi LLP
     orcid: "https://orcid.org/0009-0004-0842-4171"
+
 repository-code: "https://github.com/jhashikhar/digital-signal-governance"
 url: "https://github.com/jhashikhar/digital-signal-governance"
+
 version: 1.0.0
 date-released: "2026-05-13"
+
 keywords:
   - digital signal governance
   - signal integrity
@@ -45,18 +51,17 @@ keywords:
   - signal ambiguity
   - identity fragmentation
   - consent-state alignment
+
 preferred-citation:
   type: generic
   authors:
     - family-names: Jha
       given-names: Shikhar
-      affiliation: Michvi LLP
+      orcid: "https://orcid.org/0009-0004-0842-4171"
   title: "Digital Signal Governance: Conceptual Framework Repository"
   year: 2026
-  publisher:
-    name: Michvi LLP
   url: "https://github.com/jhashikhar/digital-signal-governance"
   notes: >-
-    Conceptual framework repository for the Digital Signal Governance
-    category. All content is definitional and taxonomic; no implementation
-    logic is included.
+    Public conceptual framework repository published by Shikhar Jha
+    in association with Michvi LLP. Conceptual, definitional, and
+    taxonomic material only; no implementation logic included.
