@@ -23,7 +23,7 @@ DSG is a governance framework, not a technical framework. It addresses condition
 
 DSG operates **upstream of reporting, attribution, optimization, automation, and downstream operational interpretation.** Its domain is the signal layer: the conditions that exist before signals are consumed by the functions that depend on them.
 
-This upstream positioning is foundational to the framework. Governance failures at the signal layer are invisible to reporting and optimization functions that consume signals; they propagate silently into downstream operations. DSG provides the vocabulary and framework for identifying, classifying, and assessing these conditions before — or at the point at which — they create downstream exposure.
+This upstream positioning is foundational to the framework. Governance failures at the signal layer are often not visible to reporting and optimization functions that consume signals; they propagate silently into downstream operations. DSG provides the vocabulary and framework for identifying, classifying, and assessing these conditions before — or at the point at which — they create downstream exposure.
 
 ---
 
