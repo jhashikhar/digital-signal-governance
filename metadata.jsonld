@@ -49,16 +49,16 @@
     }
   },
   "publisher": {
-    "@type": "Organization",
-    "name": "Michvi LLP",
-    "url": "https://michvi.com"
+    "@type": "Person",
+    "name": "Shikhar Jha",
+    "url": "https://orcid.org/0009-0004-0842-4171"
   },
   "datePublished": "2026-05-13",
   "dateModified": "2026-05-13",
   "version": "1.0.0",
   "inLanguage": "en",
   "isAccessibleForFree": true,
-  "citation": "Jha, S. (2026). Digital Signal Governance: Conceptual Framework Repository. Michvi LLP. https://github.com/jhashikhar/digital-signal-governance",
+  "citation": "Jha, Shikhar. (2026). Digital Signal Governance: Conceptual Framework Repository (Version 1.0.0). GitHub repository: https://github.com/jhashikhar/digital-signal-governance. Published by Shikhar Jha in association with Michvi LLP.",
   "subjectOf": [
     {
       "@type": "DefinedTermSet",
