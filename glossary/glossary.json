@@ -1,10 +1,11 @@
 {
   "$schema": "./glossary.schema.json",
   "framework": "Digital Signal Governance",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "maintainer": {
     "name": "Shikhar Jha",
     "organization": "Michvi LLP",
+    "orcid": "https://orcid.org/0009-0004-0842-4171",
     "repository": "https://github.com/jhashikhar/digital-signal-governance"
   },
   "terms": [
