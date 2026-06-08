@@ -49,7 +49,7 @@ Governance Risk
 ---
 ## Structural Position Within DSG
 
-Governance Risk operates as the aggregate consequence layer of the broader DSG framework.
+Governance Risk operates as the aggregate exposure layer of the broader DSG framework.
 
 Failures across other governance branches may accumulate into governance risk conditions.
 
