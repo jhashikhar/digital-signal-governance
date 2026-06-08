@@ -2,7 +2,7 @@
 
 ## Intellectual Property Notice
 
-This repository is maintained by Shikhar Jha / Michvi LLP as a **public conceptual reference resource** for the Digital Signal Governance (DSG) category.
+This repository is maintained by Shikhar Jha in association with Michvi LLP as a public conceptual reference resource for the Digital Signal Governance (DSG) category.
 
 ---
 
@@ -62,5 +62,6 @@ The Digital Signal Governance terminology and conceptual framework presented in 
 
 ---
 
-*Michvi LLP — Digital Signal Governance Reference Repository*
+*Digital Signal Governance Reference Repository*
+*Published by Shikhar Jha in association with Michvi LLP*
 *Version 1.0 — 2026*
