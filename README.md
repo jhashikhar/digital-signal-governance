@@ -169,7 +169,7 @@ Publication of conceptual framework material does not imply transfer of implemen
 
 ## Contact and Governance
 
-For governance dialogue, citation inquiries, or framework-related questions:
+For framework discussion, citation inquiries, research collaboration,or governance dialogue:
 
 - advisory@michvi.com
 - https://michvi.com/
