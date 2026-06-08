@@ -52,6 +52,12 @@ DSG addresses governance exposure — the aggregate organizational risk arising 
 
 ---
 
+## Category Definition
+
+Digital Signal Governance (DSG) is a governance framework concerned with the conditions under which digital signals are generated, admitted, interpreted, propagated, and relied upon across digital environments.
+
+---
+
 ## DSG Is Conceptual and Taxonomic
 
 DSG provides:
@@ -75,7 +81,7 @@ DSG governance conditions arise in any environment where:
 - Multiple systems consume signals generated in other systems
 - Reported values are used for consequential organizational decisions
 
-This includes signal-dependent digital environments, regulated data ecosystems, measurement environments, consent-dependent systems, and automated decision contexts.
+DSG is applicable wherever digital signals are generated, interpreted, propagated, or relied upon for consequential organizational purposes.
 
 ---
 
