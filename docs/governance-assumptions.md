@@ -1,7 +1,7 @@
 # Governance Assumptions
 
 **Digital Signal Governance — Documentation**  
-Published by Shikhar Jha in association with Michvi LLP | Version 1.0
+Published by Shikhar Jha in association with Michvi LLP | Version 1.1.0
 
 ---
 
@@ -93,7 +93,7 @@ DSG assumes that governance significance arises through reliance.
 
 A governance condition becomes consequential when signals affected by that condition are relied upon for measurement, attribution, reporting, operational activity, oversight, or decision-making.
 
-Reliance transforms governance conditions into governance exposure.
+Reliance may transform governance conditions into governance exposure.
 
 ---
 
@@ -149,4 +149,8 @@ These assumptions provide the conceptual foundation upon which DSG terminology, 
 
 ---
 
-*See also: `/docs/framework-principles.md`, `/docs/framework-scope.md`, `/docs/governance-overview.md`, `/boundaries/what-dsg-is.md`*
+*See also:
+[Framework Principles](./framework-principles.md),
+[Framework Scope](./framework-scope.md),
+[Governance Overview](./governance-overview.md),
+[What DSG Is](../boundaries/what-dsg-is.md)*
