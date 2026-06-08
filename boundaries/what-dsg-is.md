@@ -21,7 +21,7 @@ DSG is a governance framework, not a technical framework. It addresses condition
 
 ## Category Definition
 
-Digital Signal Governance (DSG) is a governance framework concerned with the conditions under which digital signals are generated, admitted, interpreted, propagated, and relied upon across digital environments.
+Digital Signal Governance (DSG) is the governance framework concerned with the conditions under which digital signals are generated, admitted, interpreted, propagated, and relied upon across digital environments.
 
 ---
 
