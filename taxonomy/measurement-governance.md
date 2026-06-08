@@ -19,6 +19,12 @@ Measurement Governance addresses that structural governance layer.
 
 ---
 
+## Category Definition
+
+Measurement Governance is the DSG taxonomy branch concerned with governance conditions affecting the trustworthiness, interpretability, attribution, and downstream reliance of signal-derived measurements within digital environments.
+
+---
+
 ## Canonical Measurement Governance Terms
 
 The following terms constitute the core Measurement Governance branch of the DSG taxonomy.
@@ -27,6 +33,16 @@ The following terms constitute the core Measurement Governance branch of the DSG
 |-------------------|-------------------|
 | **Measurement Architecture** | Governance structure governing how signals are assembled, defined, counted, attributed, and represented for measurement purposes |
 | **Attribution Dependency** | Governance condition in which attribution depends upon the integrity, availability, or correct representation of foundational governance conditions or signals |
+
+---
+
+## Taxonomy Structure
+
+```text
+Measurement Governance
+├── Measurement Architecture
+└── Attribution Dependency
+```
 
 ---
 
@@ -74,7 +90,9 @@ Governance exposure may first become visible through measurement reliance.
 
 ## Reporting Layer Distinction
 
-Measurement Governance is distinct from reporting.
+Measurement Governance is distinct from reporting. 
+
+A measurement may be numerically precise while remaining governance-uncertain.
 
 Reporting systems present measurement outputs.
 
