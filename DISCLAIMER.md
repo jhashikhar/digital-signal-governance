@@ -62,5 +62,5 @@ The Digital Signal Governance terminology and conceptual framework presented in 
 
 ---
 
-*Michvi LLP — Digital Signal Governance Public Authority Repository*
+*Michvi LLP — Digital Signal Governance Reference Repository*
 *Version 1.0 — 2026*
