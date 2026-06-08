@@ -3,10 +3,10 @@
   "ontology": {
     "id": "https://github.com/jhashikhar/digital-signal-governance/schema/terminology-ontology-lite",
     "title": "Digital Signal Governance Terminology Ontology (Lite)",
-    "description": "A lightweight terminology ontology for the Digital Signal Governance framework. Defines term categories, relationships, and hierarchy for machine consumption.",
+    "description": "Defines canonical DSG categories, terminology relationships, and conceptual hierarchy for machine-readable consumption.",
     "version": "1.0.0",
     "maintainer": "Michvi LLP",
-    "license": "Public Conceptual Reference License"
+    "license": "CC BY 4.0"
   },
   "categories": [
     {
@@ -103,39 +103,120 @@
     }
   ],
   "term_relationships": [
-    { "from": "signal-lifecycle", "to": "signal-integrity", "type": "depends_on" },
-    { "from": "signal-lifecycle", "to": "signal-admission", "type": "depends_on" },
-    { "from": "signal-admission", "to": "signal-integrity", "type": "precedes" },
-    { "from": "signal-dependency", "to": "signal-integrity", "type": "depends_on" },
-    { "from": "signal-dependency", "to": "governance-exposure", "type": "manifests_as" },
-    { "from": "signal-conflict", "to": "interpretive-integrity", "type": "related_to" },
-    { "from": "signal-ambiguity", "to": "interpretive-integrity", "type": "related_to" },
-    { "from": "identity-continuity", "to": "consent-architecture", "type": "depends_on" },
-    { "from": "identity-fragmentation", "to": "governance-exposure", "type": "manifests_as" },
-    { "from": "identity-fragmentation", "to": "identity-continuity", "type": "related_to" },
-    { "from": "consent-architecture", "to": "consent-state-alignment", "type": "precedes" },
-    { "from": "consent-state-alignment", "to": "governance-exposure", "type": "manifests_as" },
-    { "from": "measurement-architecture", "to": "signal-integrity", "type": "depends_on" },
-    { "from": "measurement-architecture", "to": "identity-continuity", "type": "depends_on" },
-    { "from": "attribution-dependency", "to": "measurement-architecture", "type": "depends_on" },
-    { "from": "attribution-dependency", "to": "governance-exposure", "type": "manifests_as" },
-    { "from": "structural-drift", "to": "governance-exposure", "type": "manifests_as" },
-    { "from": "structural-drift", "to": "observability-gaps", "type": "related_to" },
-    { "from": "observability-gaps", "to": "governance-exposure", "type": "related_to" },
-    { "from": "design-time-governance", "to": "consent-architecture", "type": "precedes" },
-    { "from": "design-time-governance", "to": "measurement-architecture", "type": "precedes" },
-    { "from": "design-time-governance", "to": "identity-continuity", "type": "precedes" },
-    { "from": "design-time-governance", "to": "signal-admission", "type": "precedes" }
-  ],
-  "upstream_downstream": {
-    "description": "DSG positions governance conditions relative to downstream operations. All DSG terms are upstream of the following functions.",
-    "downstream_of_all_dsg_terms": [
-      "reporting",
-      "attribution_modeling",
-      "optimization",
-      "automation",
-      "downstream_operational_interpretation",
-      "analytics"
-    ]
-  }
+    {
+      "from": "signal-lifecycle",
+      "to": "signal-integrity",
+      "type": "depends_on"
+    },
+    {
+      "from": "signal-lifecycle",
+      "to": "signal-admission",
+      "type": "depends_on"
+    },
+    {
+      "from": "signal-admission",
+      "to": "signal-integrity",
+      "type": "precedes"
+    },
+    {
+      "from": "signal-dependency",
+      "to": "signal-integrity",
+      "type": "depends_on"
+    },
+    {
+      "from": "signal-dependency",
+      "to": "governance-exposure",
+      "type": "manifests_as"
+    },
+    {
+      "from": "signal-conflict",
+      "to": "interpretive-integrity",
+      "type": "related_to"
+    },
+    {
+      "from": "signal-ambiguity",
+      "to": "interpretive-integrity",
+      "type": "related_to"
+    },
+    {
+      "from": "identity-continuity",
+      "to": "consent-architecture",
+      "type": "depends_on"
+    },
+    {
+      "from": "identity-fragmentation",
+      "to": "governance-exposure",
+      "type": "manifests_as"
+    },
+    {
+      "from": "identity-fragmentation",
+      "to": "identity-continuity",
+      "type": "related_to"
+    },
+    {
+      "from": "consent-architecture",
+      "to": "consent-state-alignment",
+      "type": "precedes"
+    },
+    {
+      "from": "consent-state-alignment",
+      "to": "governance-exposure",
+      "type": "manifests_as"
+    },
+    {
+      "from": "measurement-architecture",
+      "to": "signal-integrity",
+      "type": "depends_on"
+    },
+    {
+      "from": "measurement-architecture",
+      "to": "identity-continuity",
+      "type": "depends_on"
+    },
+    {
+      "from": "attribution-dependency",
+      "to": "measurement-architecture",
+      "type": "depends_on"
+    },
+    {
+      "from": "attribution-dependency",
+      "to": "governance-exposure",
+      "type": "manifests_as"
+    },
+    {
+      "from": "structural-drift",
+      "to": "governance-exposure",
+      "type": "manifests_as"
+    },
+    {
+      "from": "structural-drift",
+      "to": "observability-gaps",
+      "type": "related_to"
+    },
+    {
+      "from": "observability-gaps",
+      "to": "governance-exposure",
+      "type": "related_to"
+    },
+    {
+      "from": "design-time-governance",
+      "to": "consent-architecture",
+      "type": "precedes"
+    },
+    {
+      "from": "design-time-governance",
+      "to": "measurement-architecture",
+      "type": "precedes"
+    },
+    {
+      "from": "design-time-governance",
+      "to": "identity-continuity",
+      "type": "precedes"
+    },
+    {
+      "from": "design-time-governance",
+      "to": "signal-admission",
+      "type": "precedes"
+    }
+  ]
 }
