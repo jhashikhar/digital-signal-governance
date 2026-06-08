@@ -41,6 +41,7 @@ The following terms constitute the core Signal Governance branch of the DSG taxo
 
 ## Taxonomy Structure
 
+```text
 Signal Governance
 ├── Signal Integrity
 ├── Signal Lifecycle
@@ -49,7 +50,7 @@ Signal Governance
 ├── Signal Conflict
 ├── Signal Ambiguity
 └── Interpretive Integrity
-
+```
 ---
 
 ## Structural Position Within DSG
