@@ -35,7 +35,7 @@ DSG terminology must be internally consistent with the framework's boundary cond
 
 DSG terminology is governed according to conceptual clarity, boundary consistency, and governance relevance.
 
-The inclusion, exclusion, revision, or deprecation of terminology is not determined by commercial products, implementation approaches, vendor categories, or technology platforms.
+The admission, revision, deprecation, or removal of terminology is not determined by commercial products, implementation approaches, vendor categories, technology platforms, or organizational interests.
 
 ### 6. Stability
 
