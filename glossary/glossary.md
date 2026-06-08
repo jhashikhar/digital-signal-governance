@@ -1,6 +1,6 @@
 # Digital Signal Governance — Canonical Glossary
 
-**Published by Shikhar Jha in association with Michvi LLP as part of ongoing Digital Signal Governance framework development.**
+**Published by Shikhar Jha in association with Michvi LLP.**
 
 **Version 1.1.0** | Canonical Reference Edition | See glossary.json for machine-readable format
 
