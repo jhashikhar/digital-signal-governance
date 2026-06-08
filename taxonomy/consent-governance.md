@@ -1,7 +1,7 @@
 # Taxonomy: Consent Governance
 
 **Digital Signal Governance — Taxonomy Branch**  
-Published by Shikhar Jha in association with Michvi LLP | Version 1.0
+Published by Shikhar Jha in association with Michvi LLP | Version 1.1.0
 
 ---
 
@@ -25,7 +25,8 @@ Consent Governance is the DSG taxonomy branch concerned with governance conditio
 
 ## Canonical Consent Governance Terms
 
-The following terms constitute the core Consent Governance branch of the DSG taxonomy.
+The following canonical DSG terms constitute the Consent Governance branch of the DSG taxonomy. Authoritative definitions remain maintained in glossary.md and glossary.json.
+
 
 | Canonical DSG Term | Definition Summary |
 |-------------------|-------------------|
@@ -110,10 +111,10 @@ Surface collection mechanisms alone do not provide governance assurance.
 
 ## Related DSG Taxonomy Branches
 
-- `signal-governance.md`
-- `identity-governance.md`
-- `measurement-governance.md`
-- `governance-risk.md`
+- [Signal Governance](./signal-governance.md)
+- [Identity Governance](./identity-governance.md)
+- [Measurement Governance](./measurement-governance.md)
+- [Governance Risk](./governance-risk.md)
 
 ---
 
