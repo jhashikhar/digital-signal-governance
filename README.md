@@ -118,41 +118,43 @@ For structured citation metadata, see [`CITATION.cff`](./CITATION.cff).
 
 ```
 /
-├── README.md                        ← This file
-├── LICENSE                          ← Public reference licensing terms
-├── CITATION.cff                     ← Structured academic citation
-├── CHANGELOG.md                     ← Version history
-├── DISCLAIMER.md                    ← Full IP and non-implementation disclaimer
+├── README.md
+├── LICENSE
+├── CITATION.cff
+├── CHANGELOG.md
+├── DISCLAIMER.md
 │
-├── /glossary
-│   ├── glossary.md                  ← Human-readable definitions
-│   ├── glossary.json                ← Machine-readable definitions
-│   └── glossary.schema.json         ← JSON Schema for glossary entries
+├── boundaries/
+│   ├── what-dsg-is.md
+│   ├── what-dsg-is-not.md
+│   └── relation-to-design-time-governance.md
 │
-├── /faq
-│   └── faq.md                       ← Frequently asked questions
+├── docs/
+│   ├── governance-overview.md
+│   ├── category-positioning.md
+│   ├── terminology-governance.md
+│   ├── framework-principles.md
+│   ├── framework-scope.md
+│   └── governance-assumptions.md
 │
-├── /taxonomy
-│   ├── signal-governance.md         ← Signal-layer taxonomy
-│   ├── identity-governance.md       ← Identity continuity taxonomy
-│   ├── consent-governance.md        ← Consent architecture taxonomy
-│   ├── measurement-governance.md    ← Measurement architecture taxonomy
-│   └── governance-risk.md           ← Governance risk taxonomy
+├── faq/
+│   └── faq.md
 │
-├── /boundaries
-│   ├── what-dsg-is.md               ← Affirmative boundary definition
-│   ├── what-dsg-is-not.md           ← Exclusionary boundary definition
-│   └── relation-to-design-time-governance.md ← Adjacent framework relationship
+├── glossary/
+│   ├── glossary.md
+│   ├── glossary.json
+│   └── glossary.schema.json
 │
-├── /schema
-│   ├── metadata.jsonld              ← JSON-LD discoverability metadata
-│   └── terminology-ontology-lite.json ← Lightweight terminology ontology
+├── schema/
+│   ├── metadata.jsonld
+│   └── terminology-ontology-lite.json
 │
-│
-└── /docs
-    ├── governance-overview.md        ← Narrative overview of DSG
-    ├── terminology-governance.md     ← How DSG terminology is governed
-    └── category-positioning.md       ← Category positioning and conceptual boundaries
+└── taxonomy/
+    ├── signal-governance.md
+    ├── identity-governance.md
+    ├── consent-governance.md
+    ├── measurement-governance.md
+    └── governance-risk.md
 ```
 
 ---
