@@ -1,7 +1,7 @@
 # Taxonomy: Measurement Governance
 
 **Digital Signal Governance — Taxonomy Branch**  
-Published by Shikhar Jha in association with Michvi LLP | Version 1.0
+Published by Shikhar Jha in association with Michvi LLP | Version 1.1.0
 
 ---
 
@@ -27,7 +27,8 @@ Measurement Governance is the DSG taxonomy branch concerned with governance cond
 
 ## Canonical Measurement Governance Terms
 
-The following terms constitute the core Measurement Governance branch of the DSG taxonomy.
+The following canonical DSG terms constitute the Measurement Governance branch of the DSG taxonomy. Authoritative definitions remain maintained in glossary.md and glossary.json.
+
 
 | Canonical DSG Term | Definition Summary |
 |-------------------|-------------------|
@@ -48,7 +49,7 @@ Measurement Governance
 
 ## Structural Position Within DSG
 
-Measurement Governance governs conditions affecting signal-derived measurement trustworthiness.
+Measurement Governance governs governance conditions affecting signal-derived measurement trustworthiness.
 
 It operates as a specialized governance branch within the broader DSG framework.
 
@@ -112,10 +113,10 @@ It defines conceptual governance conditions affecting signal-derived measurement
 
 ## Related DSG Taxonomy Branches
 
-- `signal-governance.md`
-- `identity-governance.md`
-- `consent-governance.md`
-- `governance-risk.md`
+- [Signal Governance](./signal-governance.md)
+- [Identity Governance](./identity-governance.md)
+- [Consent Governance](./consent-governance.md)
+- [Governance Risk](./governance-risk.md)
 
 ---
 
