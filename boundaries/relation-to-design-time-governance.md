@@ -25,8 +25,8 @@ This document defines the relationship precisely — where the two disciplines o
 
 The primary distinguishing dimension between the two disciplines is temporal:
 
-- Design-Time Governance operates **before** signals exist — at the stage of architectural decision-making, system design, and initial configuration.
-- DSG operates **while** signals exist — during the operational life of a signal environment, addressing conditions that are present, evolving, or degrading in a live system.
+- Design-Time Governance operates primarily during system design, configuration, and pre-deployment governance activities.
+- Digital Signal Governance operates primarily on governance conditions associated with signals throughout their operational lifecycle, including generation, admission, interpretation, propagation, and downstream reliance.
 
 This temporal boundary is not a rigid wall. Many governance conditions begin as design-time decisions and evolve into DSG conditions during operation. The temporal framing clarifies which discipline is primary at a given stage; it does not imply that governance concerns cease at the moment of deployment.
 
@@ -34,7 +34,7 @@ This temporal boundary is not a rigid wall. Many governance conditions begin as 
 
 ## How Design-Time Governance Creates DSG Conditions
 
-The most direct relationship between the two disciplines is causal: inadequate Design-Time Governance is a leading source of DSG governance conditions during operation.
+A significant relationship between the two disciplines is that governance decisions made during design frequently influence governance conditions that later appear within operational signal environments.
 
 ### Consent Architecture
 If consent architecture is poorly defined at design time — ambiguous scope, incomplete propagation paths, absent hierarchy definitions — the resulting operational system will exhibit consent-state misalignment and consent architecture deficiencies as DSG conditions from the first day of operation.
