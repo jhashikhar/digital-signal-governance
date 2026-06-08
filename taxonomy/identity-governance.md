@@ -36,9 +36,11 @@ The following terms constitute the core Identity Governance branch of the DSG ta
 
 ## Taxonomy Structure
 
+```text
 Identity Governance
 ├── Identity Continuity
 └── Identity Fragmentation
+```
 
 ---
 
