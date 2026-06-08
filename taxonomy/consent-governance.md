@@ -9,7 +9,7 @@ Published by Shikhar Jha in association with Michvi LLP | Version 1.1.0
 
 Consent Governance is the DSG taxonomy branch concerned with governance conditions affecting whether authorization states governing signal generation, collection, processing, or reliance are structurally valid, current, consistently represented, and honored across signal environments.
 
-Consent Governance is distinct from consent collection mechanisms.
+Consent Governance is structurally distinct from consent collection mechanisms.
 
 User interfaces such as banners, dialogs, or preference centers are collection mechanisms. Consent Governance addresses whether the underlying governance conditions ensure that consent states are faithfully represented and consistently honored across dependent systems.
 
