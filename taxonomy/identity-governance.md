@@ -17,6 +17,12 @@ Identity governance failures are among the most consequential governance conditi
 
 ---
 
+## Category Definition
+
+Identity Governance is the DSG taxonomy branch concerned with governance conditions affecting whether entities remain consistently represented, continuously associated, and structurally recognizable across signals, systems, contexts, and time.
+
+---
+
 ## Canonical Identity Governance Terms
 
 The following terms constitute the core Identity Governance branch of the DSG taxonomy.
@@ -25,6 +31,14 @@ The following terms constitute the core Identity Governance branch of the DSG ta
 |-------------------|-------------------|
 | **Identity Continuity** | Governance condition in which an entity is represented consistently and persistently across signals, systems, and time |
 | **Identity Fragmentation** | Governance condition in which a single real-world entity is represented through multiple, unconnected, or inconsistently classified signal representations |
+
+---
+
+## Taxonomy Structure
+
+Identity Governance
+├── Identity Continuity
+└── Identity Fragmentation
 
 ---
 
