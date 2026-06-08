@@ -1,7 +1,7 @@
 # Taxonomy: Identity Governance
 
 **Digital Signal Governance — Taxonomy Branch**  
-Published by Shikhar Jha in association with Michvi LLP | Version 1.0
+Published by Shikhar Jha in association with Michvi LLP | Version 1.1.0
 
 ---
 
@@ -25,7 +25,7 @@ Identity Governance is the DSG taxonomy branch concerned with governance conditi
 
 ## Canonical Identity Governance Terms
 
-The following terms constitute the core Identity Governance branch of the DSG taxonomy.
+The following canonical DSG terms constitute the Identity Governance branch of the DSG taxonomy. Authoritative definitions remain maintained in glossary.md and glossary.json.
 
 | Canonical DSG Term | Definition Summary |
 |-------------------|-------------------|
@@ -94,10 +94,10 @@ It defines conceptual governance conditions affecting entity continuity and cohe
 
 ## Related DSG Taxonomy Branches
 
-- `signal-governance.md`
-- `consent-governance.md`
-- `measurement-governance.md`
-- `governance-risk.md`
+- [Signal Governance](./signal-governance.md)
+- [Consent Governance](./consent-governance.md)
+- [Measurement Governance](./measurement-governance.md)
+- [Governance Risk](./governance-risk.md)
 
 ---
 
