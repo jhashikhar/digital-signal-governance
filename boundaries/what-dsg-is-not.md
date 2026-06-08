@@ -111,4 +111,4 @@ Decisions made during design may influence future Digital Signal Governance cond
 
 ---
 
-*See relation-to-design-time-governance.md for a fuller discussion of this relationship.*
+*See also: `what-dsg-is.md`, `relation-to-design-time-governance.md`*
