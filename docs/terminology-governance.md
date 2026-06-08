@@ -1,7 +1,7 @@
 # Terminology Governance
 
 **Digital Signal Governance — Documentation**
-Published by Shikhar Jha in association with Michvi LLP
+Published by Shikhar Jha in association with Michvi LLP | Version 1.1.0
 
 ---
 
@@ -62,13 +62,13 @@ Proposed terms are reviewed by the repository maintainers against the terminolog
 - Whether it adds conceptual clarity or creates redundancy
 
 ### Acceptance
-Accepted terms are incorporated into the canonical glossary, relevant taxonomy documentation, terminology ontology, and version history documentation.
+Accepted terms are incorporated into the canonical glossary, glossary metadata, relevant taxonomy documentation, terminology ontology, structured repository metadata, and version history documentation.
 
 ### Revision
 Revisions to existing term definitions require a rationale documenting what changed and why. Substantive revisions (changes to a term's conceptual scope, not merely editorial improvements) require a minor version increment.
 
 ### Deprecation
-Terms that are superseded, merged into other terms, or found to violate boundary conditions may be deprecated. Deprecated terms are retained in `glossary.json` with `"deprecated": true` and a `"superseded_by"` reference. They are removed from active taxonomy documents. Deprecation is a minor version increment.
+Terms that are superseded, merged into other terms, or found to violate boundary conditions may be deprecated. Deprecated terms are retained in glossary.json with "deprecated": true and, where applicable, a "superseded_by" reference indicating the canonical replacement term. They are removed from active taxonomy documents. Deprecation is a minor version increment.
 
 ---
 
@@ -131,4 +131,7 @@ The canonical definitions maintained within this repository serve as the authori
 
 ---
 
-*See also: `/glossary/glossary.md`, `/glossary/glossary.schema.json`, `CHANGELOG.md`*
+*See also:
+../glossary/glossary.md
+../glossary/glossary.schema.json
+../CHANGELOG.md*
