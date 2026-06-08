@@ -19,9 +19,11 @@ DSG makes these conditions visible, nameable, and governable.
 
 ## The Signal Layer
 
-A digital signal is any datum that a system generates, collects, or consumes in order to represent something about an event, entity, or state. Signals are the raw material of digital measurement: they are generated when a user visits a page, clicks an element, makes a purchase, grants or denies consent, or appears in a system under any identifier.
+A digital signal is any datum that a system generates, collects, or consumes in order to represent something about an event, entity, or state.
 
-The signal layer is the layer at which this generation occurs — before signals are aggregated into measurements, counted into metrics, attributed to causes, or processed by optimization and automation systems.
+Signals are foundational representations upon which measurement, attribution, reporting, optimization, automation, and other downstream functions may depend.
+
+The signal layer is the layer at which this generation occurs — before signals are aggregated into measurements, counted into metrics, attributed to causes, or processed by downstream systems and functions.
 
 Governance at the signal layer addresses the conditions that determine whether signals:
 
@@ -32,7 +34,7 @@ Governance at the signal layer addresses the conditions that determine whether s
 - Are interpreted consistently in accordance with their defined meaning
 - Carry governance documentation sufficient to support downstream reliance
 
-When any of these conditions is absent or compromised, the signal layer carries governance exposure that propagates into every downstream function.
+When any of these conditions is absent or compromised, the signal layer carries governance exposure that may propagate into every downstream function that depends upon it.
 
 ---
 
@@ -56,9 +58,15 @@ Conditions that determine whether measurements constructed from signals are vali
 
 ## Governance Risk as Cross-Domain Outcome
 
-Governance risk — expressed as governance exposure, structural drift, and observability gaps — is the integrative outcome of conditions across all four domains. Governance exposure arises when organizations rely on signal conditions that have not been adequately governed; structural drift occurs when those conditions change without governance documentation keeping pace; observability gaps exist when governance conditions cannot be seen or assessed through available means.
+Governance Risk — expressed through governance exposure, structural drift, and observability gaps — represents the aggregate governance consequences that may arise across digital signal environments.
 
-Governance risk is not a primary governance domain alongside signal, identity, consent, and measurement governance. It is the integrative risk outcome arising from conditions across those domains. DSG provides the vocabulary and structure for identifying the specific conditions that generate governance risk, so that organizations can assess, document, and address those conditions.
+Governance exposure arises when organizations rely on signal conditions that have not been adequately governed. Structural drift occurs when governance conditions change without governance documentation, assumptions, or controls keeping pace. Observability gaps exist when governance conditions cannot be adequately observed, verified, or assessed through available means.
+
+Governance Risk functions differently from the other DSG domains.
+
+Where Signal Governance, Identity Governance, Consent Governance, and Measurement Governance describe governance conditions, Governance Risk describes the aggregate exposure that may arise from conditions across those domains.
+
+DSG provides the vocabulary and structure for identifying the conditions that contribute to governance risk, enabling organizations to understand, document, and assess governance exposure at the signal layer.
 
 ---
 
