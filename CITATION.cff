@@ -20,12 +20,14 @@ abstract: >-
 authors:
   - family-names: Jha
     given-names: Shikhar
+    affiliation: "Michvi LLP"
     orcid: "https://orcid.org/0009-0004-0842-4171"
 
 repository-code: "https://github.com/jhashikhar/digital-signal-governance"
 url: "https://github.com/jhashikhar/digital-signal-governance"
 
 version: 1.0.0
+license: "DSG Public Reference License"
 date-released: "2026-05-13"
 
 keywords:
@@ -53,7 +55,7 @@ keywords:
   - consent-state alignment
 
 preferred-citation:
-  type: software
+  type: generic
   authors:
     - family-names: Jha
       given-names: Shikhar
