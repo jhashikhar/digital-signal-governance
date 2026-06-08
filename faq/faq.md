@@ -85,6 +85,22 @@ For the avoidance of doubt, this repository does not disclose implementation sys
 
 ---
 
+## Is DSG an Audit Framework?
+
+Digital Signal Governance (DSG) is not an audit methodology, audit standard, assurance framework, or audit procedure.
+
+Audit is concerned with evaluating evidence against defined criteria. DSG is concerned with defining and describing governance conditions that may exist within signal-dependent environments.
+
+The two disciplines are related but distinct.
+
+Auditors may use DSG concepts when evaluating signal-layer governance conditions, just as they may use concepts from risk management, internal control, privacy governance, or data governance. However, DSG does not prescribe audit procedures, testing approaches, evidence requirements, assurance standards, or reporting methodologies.
+
+Audit may reveal DSG conditions. DSG may help explain audit findings. Neither discipline replaces the other.
+
+Organizations may choose to incorporate DSG concepts into audit activities, but DSG itself remains a conceptual governance framework rather than an audit framework.
+
+---
+
 ## How does DSG relate to Design-Time Governance?
 
 Design-Time Governance refers to governance applied at the stage when systems, data architectures, and signal environments are being designed or configured — prior to operational deployment.
