@@ -61,7 +61,6 @@ This includes, without limitation:
 The Digital Signal Governance terminology and conceptual framework presented in this repository are published by Shikhar Jha in association with Michvi LLP as part of ongoing governance research and public conceptual development.
 
 ---
-
-*Digital Signal Governance Reference Repository*
-*Published by Shikhar Jha in association with Michvi LLP*
+*Digital Signal Governance Reference Repository*  
+*Published by Shikhar Jha in association with Michvi LLP*  
 *Version 1.0 — 2026*
