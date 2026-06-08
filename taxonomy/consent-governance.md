@@ -17,6 +17,12 @@ In regulated environments, this distinction is materially important: collecting 
 
 ---
 
+## Category Definition
+
+Consent Governance is the DSG taxonomy branch concerned with governance conditions affecting the validity, representation, continuity, propagation, and downstream reliance of authorization states within digital signal environments.
+
+---
+
 ## Canonical Consent Governance Terms
 
 The following terms constitute the core Consent Governance branch of the DSG taxonomy.
@@ -25,6 +31,16 @@ The following terms constitute the core Consent Governance branch of the DSG tax
 |-------------------|-------------------|
 | **Consent Architecture** | Governance structure governing how consent or equivalent permission states are established, recorded, transmitted, and honored across a digital signal environment |
 | **Consent-State Alignment** | Governance condition in which consent status is consistently and currently represented across all systems, signals, and dependent processes |
+
+---
+
+## Taxonomy Structure
+
+```text
+Consent Governance
+├── Consent Architecture
+└── Consent-State Alignment
+```
 
 ---
 
