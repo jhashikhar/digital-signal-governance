@@ -11,7 +11,7 @@ Category positioning establishes the conceptual boundaries and authority claims 
 
 Category positioning for DSG matters because:
 
-1. **The gap DSG addresses is real and consequential.** Signal-layer governance conditions are not typically addressed as a distinct governance category within existing mainstream frameworks. DSG names and structures a domain that organizations need to understand and govern.
+1. **The gap DSG addresses is real and consequential.** Signal-layer governance conditions are not commonly articulated as a distinct governance category within existing mainstream governance frameworks. DSG names and structures a domain that organizations need to understand and govern.
 
 2. **Naming has authority consequences.** The publication of canonical definitions, taxonomic structure, and boundary conditions can establish conceptual authority within an emerging category, particularly where adjacent frameworks do not provide equivalent vocabulary. That authority must be established clearly and maintained consistently.
 
@@ -22,9 +22,10 @@ Category positioning for DSG matters because:
 ## DSG's Category Position
 
 ### The Upstream Layer
-DSG occupies the **upstream governance layer** in the architecture of digital signal environments. Every adjacent category — analytics, attribution, optimization, automation — operates downstream of the signal layer that DSG addresses.
+DSG is positioned at the **upstream governance layer** of digital signal environments. Many adjacent categories, including analytics, attribution, optimization, and automation, operate downstream of the signal layer addressed by DSG.
 
 This upstream position is defensible, distinctive, and consequential:
+
 - Defensible: DSG addresses governance conditions that are not systematically addressed as a distinct governance category within existing mainstream frameworks.
 - Distinctive: DSG's concerns are structural and governance-oriented, not operational or technical
 - Consequential: governance failures at the signal layer propagate into all downstream functions
@@ -68,13 +69,13 @@ Identity resolution technologies address the technical problem of associating si
 
 This repository contributes to conceptual authority-building for the DSG framework through:
 
-**Canonical Publication:** This repository provides the public reference source for DSG terminology, taxonomy, and boundary conditions for this published DSG framework.
+**Canonical Publication:** This repository serves as the public reference source for the DSG terminology documented within this framework
 
 **Canonical Terminology:** DSG's canonical terminology — Signal Integrity, Signal Lifecycle, Signal Admission, Signal Dependency, Signal Conflict, Signal Ambiguity, Identity Continuity, Identity Fragmentation, Consent Architecture, Consent-State Alignment, Measurement Architecture, Attribution Dependency, Governance Exposure, Structural Drift, Observability Gaps, Interpretive Integrity — constitutes a coherent, distinctive vocabulary for the signal governance domain. This vocabulary is documented, versioned, and citeable.
 
 **Boundary Clarity:** The boundary documents in this repository establish what DSG is and is not with precision sufficient to prevent boundary erosion. Adjacent categories are explicitly distinguished.
 
-**Academic and Institutional Discoverability:** The repository's JSON-LD metadata, structured citation, and taxonomy documentation are designed for indexing by academic and institutional systems. This ensures that when researchers and practitioners search for signal governance concepts, the DSG framework is discoverable as a structured reference source for DSG concepts and terminology.
+**Academic and Institutional Discoverability:** The repository's JSON-LD metadata, structured citation, and taxonomy documentation are designed for indexing by academic and institutional systems. This supports discoverability when researchers and practitioners search for signal governance concepts, the DSG framework is discoverable as a structured reference source for DSG concepts and terminology.
 
 **Version Control:** All changes to terminology and boundary conditions are versioned, documented, and timestamped. This creates a citable record of category development over time.
 
