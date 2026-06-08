@@ -127,7 +127,7 @@ Shikhar Jha, in association with Michvi LLP, maintains the canonical DSG termino
 
 Canonical stewardship is exercised to maintain consistency, boundary integrity, and conceptual clarity within the published DSG framework. It is not exercised to exclude legitimate governance research or commentary — researchers and practitioners may use, adapt, and build upon DSG terminology under the CC BY 4.0 license, with appropriate attribution.
 
-The canonical definitions in this repository serve as the authoritative reference for this published DSG framework.
+The canonical definitions maintained within this repository serve as the authoritative reference source for this published DSG framework.
 
 ---
 
