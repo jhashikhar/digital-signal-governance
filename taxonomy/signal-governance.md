@@ -1,7 +1,7 @@
 # Taxonomy: Signal Governance
 
 **Digital Signal Governance — Taxonomy Branch**  
-Published by Shikhar Jha in association with Michvi LLP | Version 1.0
+Published by Shikhar Jha in association with Michvi LLP | Version 1.1.0
 
 ---
 
@@ -25,7 +25,7 @@ Signal Governance is the taxonomy branch concerned with governance conditions af
 
 ## Canonical Signal Governance Terms
 
-The following terms constitute the core Signal Governance branch of the DSG taxonomy.
+The following canonical DSG terms constitute the Signal Governance branch of the DSG taxonomy. Definitions remain authoritative in glossary.md and glossary.json.
 
 | Canonical DSG Term | Definition Summary |
 |-------------------|-------------------|
@@ -101,10 +101,10 @@ It defines governance conditions at the conceptual signal layer only.
 
 ## Related DSG Taxonomy Branches
 
-- `identity-governance.md`
-- `consent-governance.md`
-- `measurement-governance.md`
-- `governance-risk.md`
+- [Identity Governance](./identity-governance.md)
+- [Consent Governance](./consent-governance.md)
+- [Measurement Governance](./measurement-governance.md)
+- [Governance Risk](./governance-risk.md)
 
 ---
 
