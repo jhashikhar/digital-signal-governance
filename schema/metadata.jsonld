@@ -8,41 +8,54 @@
   "@type": "CreativeWork",
   "@id": "https://github.com/jhashikhar/digital-signal-governance",
   "name": "Digital Signal Governance — Conceptual Framework Repository",
-  "alternateName": ["DSG", "Digital Signal Governance Framework"],
+  "alternateName": [
+    "DSG",
+    "Digital Signal Governance Framework"
+  ],
   "description": "A public conceptual framework repository documenting terminology, taxonomy, and boundary conditions for Digital Signal Governance (DSG), a governance framework addressing conditions under which signals are generated, admitted, interpreted, propagated, and relied upon across digital systems.",
   "abstract": "Digital Signal Governance (DSG) examines governance conditions affecting how signals are generated, admitted, interpreted, propagated, and relied upon across digital systems. DSG is positioned upstream of reporting, attribution, optimization, and automation. This repository provides foundational definitions, taxonomic structure, and boundary documentation for the DSG category.",
+  "url": "https://github.com/jhashikhar/digital-signal-governance",
+  "version": "1.0.0",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "learningResourceType": "Governance Framework",
+  "educationalUse": [
+    "Research",
+    "Governance Analysis",
+    "Academic Reference"
+  ],
   "keywords": [
     "digital signal governance",
     "DSG",
+    "digital governance",
+    "governance framework",
+    "governance taxonomy",
+    "signal governance",
     "signal integrity",
     "signal lifecycle",
     "signal admission",
     "signal dependency",
     "signal conflict",
     "signal ambiguity",
+    "interpretive integrity",
+    "identity governance",
     "identity continuity",
     "identity fragmentation",
+    "consent governance",
     "consent architecture",
     "consent-state alignment",
+    "measurement governance",
     "measurement architecture",
     "attribution dependency",
     "governance exposure",
     "structural drift",
     "observability gaps",
-    "interpretive integrity",
     "design-time governance",
-    "governance framework",
-    "digital governance",
-    "signal governance",
-    "data governance",
-    "governance taxonomy",
-    "identity governance",
-    "consent governance",
-    "measurement governance",
     "privacy governance",
+    "data governance",
     "Michvi LLP"
   ],
-  "url": "https://github.com/jhashikhar/digital-signal-governance",
   "creator": {
     "@type": "Person",
     "name": "Shikhar Jha",
@@ -52,141 +65,103 @@
       "name": "Michvi LLP"
     }
   },
- "publisher": {
-    "@type": "Person",
-    "name": "Shikhar Jha",
-    "url": "https://orcid.org/0009-0004-0842-4171"
+  "publisher": {
+    "@type": "Organization",
+    "name": "Michvi LLP"
   },
   "datePublished": "2026-05-13",
   "dateModified": "2026-05-13",
-  "version": "1.0.0",
-  "inLanguage": "en",
-  "isAccessibleForFree": true,
-  "citation": "Jha, Shikhar. (2026). Digital Signal Governance: Conceptual Framework Repository (Version 1.0.0). GitHub repository: https://github.com/jhashikhar/digital-signal-governance. Published by Shikhar Jha in association with Michvi LLP.",
+  "citation": "Jha, Shikhar. (2026). Digital Signal Governance: Conceptual Framework Repository (Version 1.0.0). GitHub repository. Published by Shikhar Jha in association with Michvi LLP.",
   "subjectOf": [
     {
       "@type": "DefinedTermSet",
       "name": "Digital Signal Governance Glossary",
-      "url":  "https://github.com/jhashikhar/digital-signal-governance/blob/main/glossary/glossary.md",
+      "url": "https://github.com/jhashikhar/digital-signal-governance/blob/main/glossary/glossary.md",
       "hasDefinedTerm": [
         {
           "@type": "DefinedTerm",
           "name": "Signal Integrity",
-          "termCode": "signal-integrity",
-          "description": "The governance condition in which a signal accurately and consistently represents what it is attributed to represent, within the scope and context for which it was generated.",
-          "inDefinedTermSet": "Digital Signal Governance Glossary"
+          "termCode": "signal-integrity"
         },
         {
           "@type": "DefinedTerm",
           "name": "Signal Lifecycle",
-          "termCode": "signal-lifecycle",
-          "description": "The complete span of governance-relevant stages through which a signal passes: from generation, through admission and interpretation, to downstream reliance.",
-          "inDefinedTermSet": "Digital Signal Governance Glossary"
+          "termCode": "signal-lifecycle"
         },
         {
           "@type": "DefinedTerm",
           "name": "Signal Admission",
-          "termCode": "signal-admission",
-          "description": "The governance condition governing whether, and under what criteria, a signal is accepted into a system or data environment for subsequent use, interpretation, or reliance.",
-          "inDefinedTermSet": "Digital Signal Governance Glossary"
+          "termCode": "signal-admission"
         },
         {
           "@type": "DefinedTerm",
           "name": "Signal Dependency",
-          "termCode": "signal-dependency",
-          "description": "A governance condition in which the validity of one signal depends on the integrity, availability, or correct classification of one or more other signals.",
-          "inDefinedTermSet": "Digital Signal Governance Glossary"
+          "termCode": "signal-dependency"
         },
         {
           "@type": "DefinedTerm",
           "name": "Signal Conflict",
-          "termCode": "signal-conflict",
-          "description": "A governance condition in which two or more signals produce irreconcilably different values or classifications without a governance mechanism to adjudicate between them.",
-          "inDefinedTermSet": "Digital Signal Governance Glossary"
+          "termCode": "signal-conflict"
         },
         {
           "@type": "DefinedTerm",
           "name": "Signal Ambiguity",
-          "termCode": "signal-ambiguity",
-          "description": "A governance condition in which a signal's meaning, scope, or attribution is insufficiently specified to permit consistent interpretation.",
-          "inDefinedTermSet": "Digital Signal Governance Glossary"
+          "termCode": "signal-ambiguity"
         },
         {
           "@type": "DefinedTerm",
           "name": "Identity Continuity",
-          "termCode": "identity-continuity",
-          "description": "The governance condition in which an entity is represented consistently and persistently across signals, systems, and time periods.",
-          "inDefinedTermSet": "Digital Signal Governance Glossary"
+          "termCode": "identity-continuity"
         },
         {
           "@type": "DefinedTerm",
           "name": "Identity Fragmentation",
-          "termCode": "identity-fragmentation",
-          "description": "A governance condition in which a single real-world entity is represented by multiple, unconnected, or inconsistently classified signal representations.",
-          "inDefinedTermSet": "Digital Signal Governance Glossary"
+          "termCode": "identity-fragmentation"
         },
         {
           "@type": "DefinedTerm",
           "name": "Consent Architecture",
-          "termCode": "consent-architecture",
-          "description": "The governance structure governing how consent is established, recorded, transmitted, and honored across a digital signal environment.",
-          "inDefinedTermSet": "Digital Signal Governance Glossary"
+          "termCode": "consent-architecture"
         },
         {
           "@type": "DefinedTerm",
           "name": "Consent-State Alignment",
-          "termCode": "consent-state-alignment",
-          "description": "The governance condition in which consent status is consistent and current across all systems and signals that depend on it.",
-          "inDefinedTermSet": "Digital Signal Governance Glossary"
+          "termCode": "consent-state-alignment"
         },
         {
           "@type": "DefinedTerm",
           "name": "Measurement Architecture",
-          "termCode": "measurement-architecture",
-          "description": "The governance structure governing how signals are assembled, defined, counted, attributed, and represented for measurement purposes.",
-          "inDefinedTermSet": "Digital Signal Governance Glossary"
+          "termCode": "measurement-architecture"
         },
         {
           "@type": "DefinedTerm",
           "name": "Attribution Dependency",
-          "termCode": "attribution-dependency",
-          "description": "A governance condition in which an attribution depends on the integrity, availability, or correct representation of foundational signals.",
-          "inDefinedTermSet": "Digital Signal Governance Glossary"
+          "termCode": "attribution-dependency"
         },
         {
           "@type": "DefinedTerm",
           "name": "Governance Exposure",
-          "termCode": "governance-exposure",
-          "description": "The degree to which decisions, measurements, or positions depend on signal conditions not verified or governed to adequate standard.",
-          "inDefinedTermSet": "Digital Signal Governance Glossary"
+          "termCode": "governance-exposure"
         },
         {
           "@type": "DefinedTerm",
           "name": "Structural Drift",
-          "termCode": "structural-drift",
-          "description": "A governance condition in which the underlying structure of a signal environment changes in ways not reflected in governance assumptions or controls.",
-          "inDefinedTermSet": "Digital Signal Governance Glossary"
+          "termCode": "structural-drift"
         },
         {
           "@type": "DefinedTerm",
           "name": "Observability Gaps",
-          "termCode": "observability-gaps",
-          "description": "Conditions in a signal environment in which governance state cannot be observed, verified, or audited through available means.",
-          "inDefinedTermSet": "Digital Signal Governance Glossary"
+          "termCode": "observability-gaps"
         },
         {
           "@type": "DefinedTerm",
           "name": "Interpretive Integrity",
-          "termCode": "interpretive-integrity",
-          "description": "The governance condition in which a signal is interpreted consistently in accordance with its defined meaning across all contexts and consumers.",
-          "inDefinedTermSet": "Digital Signal Governance Glossary"
+          "termCode": "interpretive-integrity"
         },
         {
           "@type": "DefinedTerm",
           "name": "Design-Time Governance",
-          "termCode": "design-time-governance",
-          "description": "Governance applied at the stage when systems and signal environments are being designed — prior to operational deployment. Adjacent framework to DSG.",
-          "inDefinedTermSet": "Digital Signal Governance Glossary"
+          "termCode": "design-time-governance"
         }
       ]
     }
