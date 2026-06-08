@@ -169,11 +169,12 @@ Publication of conceptual framework material does not imply transfer of implemen
 
 ## Contact and Governance
 
-For framework discussion, citation inquiries, research collaboration,or governance dialogue:
+For framework discussion, citation inquiries, research collaboration, or governance dialogue:
 
 - advisory@michvi.com
 - https://michvi.com/
 
 ---
-
-*This repository documents the Digital Signal Governance conceptual framework as publicly published by Shikhar Jha in association with Michvi LLP.*
+*Digital Signal Governance Conceptual Framework Repository*  
+*Published by Shikhar Jha in association with Michvi LLP*  
+*Version 1.0.0*
