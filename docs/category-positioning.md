@@ -69,13 +69,13 @@ Identity resolution technologies address the technical problem of associating si
 
 This repository contributes to conceptual authority-building for the DSG framework through:
 
-**Canonical Publication:** This repository serves as the public reference source for the DSG terminology documented within this framework
+**Canonical Publication:** This repository serves as the public reference source for the DSG terminology documented within this framework.
 
 **Canonical Terminology:** DSG's canonical terminology — Signal Integrity, Signal Lifecycle, Signal Admission, Signal Dependency, Signal Conflict, Signal Ambiguity, Identity Continuity, Identity Fragmentation, Consent Architecture, Consent-State Alignment, Measurement Architecture, Attribution Dependency, Governance Exposure, Structural Drift, Observability Gaps, Interpretive Integrity — constitutes a coherent, distinctive vocabulary for the signal governance domain. This vocabulary is documented, versioned, and citeable.
 
 **Boundary Clarity:** The boundary documents in this repository establish what DSG is and is not with precision sufficient to prevent boundary erosion. Adjacent categories are explicitly distinguished.
 
-**Academic and Institutional Discoverability:** The repository's JSON-LD metadata, structured citation, and taxonomy documentation are designed for indexing by academic and institutional systems. This supports discoverability when researchers and practitioners search for signal governance concepts, the DSG framework is discoverable as a structured reference source for DSG concepts and terminology.
+**Academic and Institutional Discoverability:** The repository’s JSON-LD metadata, structured citation, and taxonomy documentation are designed for indexing by academic and institutional systems. This supports discoverability when researchers and practitioners search for signal governance concepts and terminology. The DSG framework is published as a structured reference source for DSG concepts and definitions.
 
 **Version Control:** All changes to terminology and boundary conditions are versioned, documented, and timestamped. This creates a citable record of category development over time.
 
