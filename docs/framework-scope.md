@@ -97,7 +97,7 @@ DSG addresses questions such as:
 
 ## Scope of Assessment
 
-DSG may be used to describe, classify, document, analyze, or assess governance conditions affecting digital signals.
+DSG may be used to describe, classify, document, analyze, or reason about governance conditions affecting digital signals.
 
 Such assessment is conceptual and governance-oriented.
 
@@ -243,4 +243,8 @@ Its purpose is to provide a structured governance vocabulary, taxonomy, and conc
 
 ---
 
-*See also: `/boundaries/what-dsg-is.md`, `/boundaries/what-dsg-is-not.md`, `/docs/framework-principles.md`, `/docs/governance-overview.md`*
+*See also:
+[What DSG Is](../boundaries/what-dsg-is.md),
+[What DSG Is Not](../boundaries/what-dsg-is-not.md),
+[Framework Principles](./framework-principles.md),
+[Governance Overview](./governance-overview.md)*
