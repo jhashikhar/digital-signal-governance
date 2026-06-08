@@ -18,6 +18,7 @@ Versioning follows Semantic Versioning principles adapted for conceptual framewo
 - Initial public release of the Digital Signal Governance conceptual framework repository
 - Established Digital Signal Governance (DSG) as a public conceptual governance category
 - Defined repository governance boundaries as conceptual, definitional, and taxonomic only
+- Established Digital Signal Governance (DSG) as a governance-first conceptual framework focused on signal-layer conditions
 
 #### Core Repository Documents
 - `README.md` — category definition, scope, governance positioning, institutional boundaries, and citation guidance
