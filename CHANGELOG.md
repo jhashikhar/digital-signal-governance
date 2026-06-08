@@ -10,6 +10,59 @@ Versioning follows Semantic Versioning principles adapted for conceptual framewo
 
 ---
 
+## [1.0.0] — 2026-05-13
+
+### Initial Public Release
+
+#### Repository Foundation
+- Initial public release of the Digital Signal Governance conceptual framework repository
+- Published the initial public conceptual framework for Digital Signal Governance (DSG)
+- Defined repository governance boundaries as conceptual, definitional, and taxonomic only
+- Documented Digital Signal Governance (DSG) as a governance-first conceptual framework focused on signal-layer conditions
+- Published canonical terminology, taxonomy, and boundary documentation for Version 1.0.0
+
+#### Core Repository Documents
+- `README.md` — category definition, scope, governance positioning, institutional boundaries, and citation guidance
+- `LICENSE` — Public Conceptual Reference License
+- `CITATION.cff` — structured academic and professional citation metadata
+- `DISCLAIMER.md` — intellectual property, non-implementation, and legal boundary disclaimer
+- `CHANGELOG.md` — repository version history
+
+#### Glossary (`/glossary`)
+- `glossary.md` — canonical human-readable terminology definitions
+- `glossary.json` — machine-readable structured glossary definitions
+- `glossary.schema.json` — glossary structural validation schema
+
+#### FAQ (`/faq`)
+- `faq.md` — foundational explanatory questions regarding DSG scope, purpose, and positioning
+
+#### Taxonomy (`/taxonomy`)
+- `signal-governance.md` — signal-layer governance conditions
+- `identity-governance.md` — identity continuity and fragmentation taxonomy
+- `consent-governance.md` — consent architecture governance taxonomy
+- `measurement-governance.md` — measurement and attribution governance taxonomy
+- `governance-risk.md` — governance exposure and structural risk taxonomy
+
+#### Boundary Documentation (`/boundaries`)
+- `what-dsg-is.md` — affirmative category definition
+- `what-dsg-is-not.md` — exclusionary category boundaries
+- `relation-to-design-time-governance.md` — adjacent framework relationship documentation
+
+#### Schema and Machine Discoverability (`/schema`)
+- `metadata.jsonld` — structured metadata for discoverability and indexing
+- `terminology-ontology-lite.json` — lightweight machine-readable DSG terminology ontology
+
+#### Documentation (`/docs`)
+- `governance-overview.md` — narrative overview of the DSG framework
+- `terminology-governance.md` — terminology stewardship and governance model
+- `category-positioning.md` — conceptual positioning and institutional framing
+- `framework-principles.md` — foundational principles governing DSG
+- `framework-scope.md` — scope boundaries of the DSG framework
+- `governance-assumptions.md` — assumptions underpinning the DSG conceptual model
+
+---
+
+
 ## [1.1.0] — 2026-06-08
 
 ### Documentation Expansion
@@ -69,58 +122,6 @@ Versioning follows Semantic Versioning principles adapted for conceptual framewo
 Version 1.1.0 represents a documentation, taxonomy, governance, and discoverability expansion of the initial public DSG release.
 
 No implementation methodologies, operational procedures, technical architectures, proprietary systems, detection mechanisms, enforcement logic, or product capabilities were added or disclosed as part of this release.
-
----
-
-## [1.0.0] — 2026-05-13
-
-### Initial Public Release
-
-#### Repository Foundation
-- Initial public release of the Digital Signal Governance conceptual framework repository
-- Published the initial public conceptual framework for Digital Signal Governance (DSG)
-- Defined repository governance boundaries as conceptual, definitional, and taxonomic only
-- Documented Digital Signal Governance (DSG) as a governance-first conceptual framework focused on signal-layer conditions
-- Published canonical terminology, taxonomy, and boundary documentation for Version 1.0.0
-
-#### Core Repository Documents
-- `README.md` — category definition, scope, governance positioning, institutional boundaries, and citation guidance
-- `LICENSE` — Public Conceptual Reference License
-- `CITATION.cff` — structured academic and professional citation metadata
-- `DISCLAIMER.md` — intellectual property, non-implementation, and legal boundary disclaimer
-- `CHANGELOG.md` — repository version history
-
-#### Glossary (`/glossary`)
-- `glossary.md` — canonical human-readable terminology definitions
-- `glossary.json` — machine-readable structured glossary definitions
-- `glossary.schema.json` — glossary structural validation schema
-
-#### FAQ (`/faq`)
-- `faq.md` — foundational explanatory questions regarding DSG scope, purpose, and positioning
-
-#### Taxonomy (`/taxonomy`)
-- `signal-governance.md` — signal-layer governance conditions
-- `identity-governance.md` — identity continuity and fragmentation taxonomy
-- `consent-governance.md` — consent architecture governance taxonomy
-- `measurement-governance.md` — measurement and attribution governance taxonomy
-- `governance-risk.md` — governance exposure and structural risk taxonomy
-
-#### Boundary Documentation (`/boundaries`)
-- `what-dsg-is.md` — affirmative category definition
-- `what-dsg-is-not.md` — exclusionary category boundaries
-- `relation-to-design-time-governance.md` — adjacent framework relationship documentation
-
-#### Schema and Machine Discoverability (`/schema`)
-- `metadata.jsonld` — structured metadata for discoverability and indexing
-- `terminology-ontology-lite.json` — lightweight machine-readable DSG terminology ontology
-
-#### Documentation (`/docs`)
-- `governance-overview.md` — narrative overview of the DSG framework
-- `terminology-governance.md` — terminology stewardship and governance model
-- `category-positioning.md` — conceptual positioning and institutional framing
-- framework-principles.md — foundational principles governing DSG
-- framework-scope.md — scope boundaries of the DSG framework
-- governance-assumptions.md — assumptions underpinning the DSG conceptual model
 
 ---
 
