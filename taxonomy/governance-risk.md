@@ -1,7 +1,7 @@
 # Taxonomy: Governance Risk
 
 **Digital Signal Governance — Taxonomy Branch**  
-Published by Shikhar Jha in association with Michvi LLP | Version 1.0
+Published by Shikhar Jha in association with Michvi LLP | Version 1.1.0
 
 ---
 
@@ -27,7 +27,8 @@ Governance Risk is the DSG taxonomy branch concerned with organizational exposur
 
 ## Canonical Governance Risk Terms
 
-The following terms constitute the core Governance Risk branch of the DSG taxonomy.
+The following canonical DSG terms constitute the Governance Risk branch of the DSG taxonomy. Authoritative definitions remain maintained in glossary.md and glossary.json.
+
 
 | Canonical DSG Term | Definition Summary |
 |-------------------|-------------------|
@@ -132,10 +133,10 @@ It defines conceptual governance risk conditions arising from inadequate governa
 
 ## Related DSG Taxonomy Branches
 
-- `signal-governance.md`
-- `identity-governance.md`
-- `consent-governance.md`
-- `measurement-governance.md`
+- [Signal Governance](./signal-governance.md)
+- [Identity Governance](./identity-governance.md)
+- [Consent Governance](./consent-governance.md)
+- [Measurement Governance](./measurement-governance.md)
 
 ---
 
