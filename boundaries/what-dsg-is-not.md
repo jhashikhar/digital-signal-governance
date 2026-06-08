@@ -85,12 +85,30 @@ DSG does not specify or imply detection algorithms, monitoring systems, anomaly 
 
 ---
 
-## DSG Is Not Design-Time Governance
+## DSG Is Not an Audit Framework
 
-**Design-Time Governance** addresses governance decisions made at the stage when systems are being designed — prior to operational deployment. DSG addresses governance conditions in operation: the conditions that exist, evolve, and may fail while signals are actively flowing.
+**Audit** is the process of examining evidence to assess whether conditions, controls, representations, or obligations satisfy defined criteria.
 
-The two disciplines are adjacent and complementary. DSG is not a subset of Design-Time Governance, and Design-Time Governance is not a substitute for DSG. See `relation-to-design-time-governance.md` for a full treatment of this relationship.
+Digital Signal Governance (DSG) is not an audit methodology, audit standard, assurance framework, or audit procedure.
+
+DSG provides a conceptual vocabulary and governance structure for describing governance conditions that may be relevant to audit activities. Auditors may use DSG concepts when evaluating signal-dependent environments, but DSG itself does not prescribe audit methods, testing procedures, assurance standards, or evidentiary requirements.
+
+Audit may reveal DSG conditions. DSG may inform audit interpretation. The two disciplines are related but distinct.
 
 ---
 
-*See also: `what-dsg-is.md`, `relation-to-design-time-governance.md`*
+## DSG Is Not Design-Time Governance
+
+Design-Time Governance addresses governance decisions made during the design and configuration of systems prior to operational deployment.
+
+Digital Signal Governance (DSG) addresses governance conditions affecting digital signals throughout their lifecycle, including generation, admission, interpretation, propagation, and downstream reliance.
+
+The two disciplines are adjacent and complementary.
+
+**Design-Time Governance** is not a substitute for DSG, and DSG is not a subset of Design-Time Governance.
+
+Decisions made during design may influence future Digital Signal Governance conditions, but the two frameworks address different governance questions and operate at different points within the broader governance lifecycle.
+
+---
+
+*See relation-to-design-time-governance.md for a fuller discussion of this relationship.*
