@@ -7,13 +7,19 @@ Published by Shikhar Jha in association with Michvi LLP | Version 1.0
 
 ## Overview
 
-Signal Governance is the primary taxonomy branch of the Digital Signal Governance (DSG) framework.
+Signal Governance is the foundational taxonomy branch of the Digital Signal Governance (DSG) framework.
 
 It encompasses governance conditions that operate directly on digital signals: the conditions affecting whether signals are appropriately admitted, accurately represented, consistently interpreted, and fit for downstream reliance.
 
 Signal Governance addresses the signal itself — its lifecycle, integrity, dependency relationships, ambiguity, conflict conditions, and interpretive consistency.
 
 Other DSG taxonomy branches (Identity Governance, Consent Governance, Measurement Governance, and Governance Risk) address adjacent governance dimensions that influence signal environments. Signal Governance remains the canonical branch governing the signal layer directly.
+
+---
+
+## Category Definition
+
+Signal Governance is the taxonomy branch concerned with governance conditions affecting signals directly, including their formation, admission, interpretation, dependency relationships, consistency, and downstream reliability.
 
 ---
 
@@ -30,6 +36,19 @@ The following terms constitute the core Signal Governance branch of the DSG taxo
 | **Signal Conflict** | Governance condition in which signals relating to the same condition produce irreconcilable values without adjudication |
 | **Signal Ambiguity** | Governance condition in which a signal’s meaning, scope, or attribution is insufficiently specified |
 | **Interpretive Integrity** | Governance condition in which a signal is interpreted consistently according to its defined meaning |
+
+---
+
+## Taxonomy Structure
+
+Signal Governance
+├── Signal Integrity
+├── Signal Lifecycle
+├── Signal Admission
+├── Signal Dependency
+├── Signal Conflict
+├── Signal Ambiguity
+└── Interpretive Integrity
 
 ---
 
