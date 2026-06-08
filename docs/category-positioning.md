@@ -1,7 +1,7 @@
 # Category Positioning
 
 **Digital Signal Governance — Documentation**
-Published by Shikhar Jha in association with Michvi LLP
+Published by Shikhar Jha in association with Michvi LLP | Version 1.1.0
 
 ---
 
@@ -11,7 +11,7 @@ Category positioning establishes the conceptual boundaries and authority claims 
 
 Category positioning for DSG matters because:
 
-1. **The gap DSG addresses is real and consequential.** Signal-layer governance conditions are not commonly articulated as a distinct governance category within existing mainstream governance frameworks. DSG names and structures a domain that organizations need to understand and govern.
+1. **DSG is intended to address a governance gap.** Signal-layer governance conditions are not commonly articulated as a distinct governance category within existing mainstream governance frameworks. DSG provides terminology, taxonomy, and conceptual structure for describing, discussing, and evaluating such conditions within digital environments.
 
 2. **Naming has authority consequences.** The publication of canonical definitions, taxonomic structure, and boundary conditions can establish conceptual authority within an emerging category, particularly where adjacent frameworks do not provide equivalent vocabulary. That authority must be established clearly and maintained consistently.
 
@@ -67,7 +67,7 @@ Identity resolution technologies address the technical problem of associating si
 
 ## Authority Establishment
 
-This repository contributes to conceptual authority-building for the DSG framework through:
+This repository contributes to the development and documentation of the DSG conceptual category through:
 
 **Canonical Publication:** This repository serves as the public reference source for the DSG terminology documented within this framework.
 
@@ -92,4 +92,7 @@ Category authority is not established once — it is maintained and developed th
 
 ---
 
-*See also: `/boundaries/what-dsg-is.md`, `/boundaries/what-dsg-is-not.md`, `/docs/governance-overview.md`*
+*See also:
+../boundaries/what-dsg-is.md
+../boundaries/what-dsg-is-not.md
+./governance-overview.md*
