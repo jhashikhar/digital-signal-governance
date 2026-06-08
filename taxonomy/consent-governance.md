@@ -11,7 +11,7 @@ Consent Governance is the DSG taxonomy branch concerned with governance conditio
 
 Consent Governance is distinct from consent collection mechanisms.
 
-User interfaces such as banners, dialogs, or preference centers are collection mechanisms. Consent Governance addresses whether the underlying governance conditions ensure that consent states are faithfully represented and operationally honored across dependent systems.
+User interfaces such as banners, dialogs, or preference centers are collection mechanisms. Consent Governance addresses whether the underlying governance conditions ensure that consent states are faithfully represented and consistently honored across dependent systems.
 
 In regulated environments, this distinction is materially important: collecting a consent selection does not itself establish governance assurance.
 
