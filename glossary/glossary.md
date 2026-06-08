@@ -1,13 +1,18 @@
 # Digital Signal Governance — Canonical Glossary
 
 **Published by Shikhar Jha in association with Michvi LLP as part of ongoing Digital Signal Governance framework development.**
-Version 1.0 | See `glossary.json` for machine-readable format
+
+**Version 1.0.0** | Canonical Reference Edition | See glossary.json for machine-readable format
 
 ---
 
-This glossary provides canonical definitions for the core terminology of the Digital Signal Governance (DSG) framework. All definitions are conceptual, non-operational, and executive-readable.
+This glossary provides canonical definitions for the core terminology of the Digital Signal Governance (DSG) framework.
 
-Definitions describe **governance conditions** — not implementations, technical mechanisms, or operational procedures.
+All definitions contained within this glossary are conceptual, non-operational, and executive-readable.
+
+Definitions describe governance conditions rather than implementations, technical mechanisms, operational procedures, engineering methodologies, or system architectures.
+
+Where differences arise between derivative publications, presentations, articles, research papers, or secondary references, the definitions contained within this glossary shall be treated as the authoritative reference version for the Digital Signal Governance framework.
 
 ---
 
@@ -225,5 +230,6 @@ See `/boundaries/relation-to-design-time-governance.md` for a fuller treatment o
 
 ---
 
-*For machine-readable definitions, see `glossary.json`.*
-*For JSON Schema, see `glossary.schema.json`.*
+For machine-readable definitions, see `glossary.json`.
+
+For glossary validation and structure requirements, see `glossary.schema.json`.
