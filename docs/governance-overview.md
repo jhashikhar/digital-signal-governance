@@ -1,7 +1,7 @@
 # Governance Overview: Digital Signal Governance
 
 **Digital Signal Governance — Documentation**
-Published by Shikhar Jha in association with Michvi LLP | Version 1.0
+Published by Shikhar Jha in association with Michvi LLP | Version 1.1.0
 
 ---
 
@@ -38,21 +38,29 @@ When any of these conditions is absent or compromised, the signal layer carries 
 
 ---
 
-## Four Governance Domains
+## DSG Governance Domains
 
-DSG organizes signal-layer governance conditions into four primary domains:
+DSG organizes signal-layer governance conditions into five taxonomy branches:
 
 ### 1. Signal Governance
+
 Conditions that operate directly on signals: integrity, lifecycle, admission, dependency, conflict, ambiguity, and interpretive consistency. Signal governance is the foundational domain; all other domains describe specific dimensions of the conditions that affect signal formation and quality.
 
 ### 2. Identity Governance
+
 Conditions that determine whether the entities referenced by signals — persons, devices, accounts — are represented consistently and persistently. Identity governance is a precondition for measurement, attribution, and consent, all of which depend on stable entity identification.
 
 ### 3. Consent Governance
+
 Conditions that determine whether signals are authorized — whether the consent underpinning signal generation is valid, current, and honored. Consent governance addresses both the architecture of consent and the alignment of consent states across systems.
 
 ### 4. Measurement Governance
+
 Conditions that determine whether measurements constructed from signals are valid, documented, and governed to a standard adequate for the reliance placed upon them. Measurement governance addresses measurement architecture, attribution dependency, and the governance conditions embedded in reported values.
+
+### 5. Governance Risk
+
+Governance Risk addresses aggregate governance exposure arising when governance conditions across signal environments become degraded, unverifiable, inconsistent, or no longer current. It includes Governance Exposure, Structural Drift, and Observability Gaps.
 
 ---
 
@@ -92,6 +100,10 @@ Governance conditions at the signal layer determine everything downstream. An or
 
 ---
 
-*See also: `/docs/terminology-governance.md`, `/docs/category-positioning.md`*
-*Full taxonomy: `/taxonomy/`*
-*Boundary documentation: `/boundaries/`*
+*See also:
+[Terminology Governance](./terminology-governance.md),
+[Category Positioning](./category-positioning.md)*
+
+*Full taxonomy: ../taxonomy/*
+
+*Boundary documentation: ../boundaries/*
