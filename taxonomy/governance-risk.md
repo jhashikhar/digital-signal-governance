@@ -19,6 +19,12 @@ It concerns governance adequacy at the signal layer and the organizational conse
 
 ---
 
+## Category Definition
+
+Governance Risk is the DSG taxonomy branch concerned with organizational exposure arising when governance conditions affecting signals, identities, consent states, or measurements become absent, degraded, unverifiable, inconsistent, or no longer current.
+
+---
+
 ## Canonical Governance Risk Terms
 
 The following terms constitute the core Governance Risk branch of the DSG taxonomy.
@@ -30,7 +36,16 @@ The following terms constitute the core Governance Risk branch of the DSG taxono
 | **Observability Gaps** | Governance conditions in which signal-layer governance state cannot be adequately observed, verified, or audited |
 
 ---
+## Taxonomy Structure
 
+```text
+Governance Risk
+├── Governance Exposure
+├── Structural Drift
+└── Observability Gaps
+```
+
+---
 ## Structural Position Within DSG
 
 Governance Risk operates as the aggregate consequence layer of the broader DSG framework.
