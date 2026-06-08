@@ -6,7 +6,7 @@
     "description": "Defines canonical DSG categories, terminology relationships, and conceptual hierarchy for machine-readable consumption.",
     "version": "1.0.0",
     "maintainer": "Michvi LLP",
-    "license": "CC BY 4.0"
+    "license": "https://creativecommons.org/licenses/by/4.0/"
   },
   "categories": [
     {
