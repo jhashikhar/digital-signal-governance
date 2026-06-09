@@ -36,6 +36,7 @@ Versioning follows Semantic Versioning principles adapted for conceptual framewo
   - Zenodo archival record
 
 - Standardized Version 1.1.1 citation references throughout repository metadata assets.
+- - Aligned repository metadata with Zenodo DOI record for long-term archival reference.
 
 ### Framework Status
 
