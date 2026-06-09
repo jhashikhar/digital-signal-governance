@@ -104,7 +104,7 @@ To cite this repository in academic, professional, or regulatory work:
 
 ```
 Jha, Shikhar. (2026).
-Digital Signal Governance: Conceptual Framework Repository (Version 1.0.0).
+Digital Signal Governance: Conceptual Framework Repository (Version 1.1.0).
 GitHub repository: https://github.com/jhashikhar/digital-signal-governance
 
 Published by Shikhar Jha in association with Michvi LLP.
@@ -179,4 +179,4 @@ For framework discussion, citation inquiries, research collaboration, or governa
 ---
 *Digital Signal Governance Conceptual Framework Repository*  
 *Published by Shikhar Jha in association with Michvi LLP*  
-*Version 1.0.0*
+*Version 1.1.0*
