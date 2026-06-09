@@ -125,7 +125,7 @@ Shikhar Jha, in association with Michvi LLP, maintains the canonical DSG termino
 - Canonical definition revisions
 - Boundary-consistency review
 
-Canonical stewardship is exercised to maintain consistency, boundary integrity, and conceptual clarity within the published DSG framework. It is not exercised to exclude legitimate governance research or commentary — researchers and practitioners may use, adapt, and build upon DSG terminology under the CC BY 4.0 license, with appropriate attribution.
+Canonical stewardship is exercised to maintain consistency, boundary integrity, and conceptual clarity within the published DSG framework. It is not exercised to exclude legitimate governance research or commentary — researchers and practitioners may reference, quote reasonable excerpts with attribution, cite, discuss, and academically analyze DSG terminology under the Digital Signal Governance Public Conceptual Reference License.
 
 The canonical definitions maintained within this repository serve as the authoritative reference source for this published DSG framework.
 
