@@ -4,7 +4,7 @@
 
 ---
 
-This FAQ addresses the most common questions from executives, auditors, governance practitioners, and researchers engaging with the Digital Signal Governance (DSG) framework.
+This FAQ addresses common questions from executives, auditors, governance practitioners, researchers, and other readers engaging with the Digital Signal Governance (DSG) framework.
 
 ---
 
