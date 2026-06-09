@@ -1,6 +1,7 @@
 # Digital Signal Governance — Frequently Asked Questions
 
-**Published by Shikhar Jha in association with Michvi LLP**
+**Published by Shikhar Jha in association with Michvi LLP | Version 1.1.0**
+
 ---
 
 This FAQ addresses the most common questions from executives, auditors, governance practitioners, and researchers engaging with the Digital Signal Governance (DSG) framework.
@@ -13,7 +14,7 @@ Digital Signal Governance (DSG) is a governance framework concerned with the con
 
 A "signal" in the DSG sense is any digital datum that a system generates, collects, or consumes in order to represent something about an event, an entity, or a state — and upon which downstream processes, measurements, or decisions depend.
 
-DSG asks: **Under what governance conditions does that signal exist?** Is it well-formed? Does it mean what users of the signal assume it means? Was it generated under valid consent? Does the identity it references remain continuous and coherent? Are the measurement rules that govern it documented and consistently applied?
+DSG asks: **Under what governance conditions was that signal generated, admitted, interpreted, propagated, and relied upon?** Is it well-formed? Does it mean what users of the signal assume it means? Was it generated under valid consent? Does the identity it references remain continuous and coherent? Are the measurement rules that govern it documented and consistently applied?
 
 DSG addresses these questions at the structural layer — before signals are consumed by reporting tools, attribution models, optimization engines, or automated decision systems. It is a discipline of governance upstream of operations.
 
@@ -25,7 +26,7 @@ Analytics is a function that consumes signals: it processes, aggregates, visuali
 
 Digital Signal Governance is concerned with the conditions that determine whether those signals are trustworthy in the first place — before they reach an analytics system.
 
-The distinction is analogous to the difference between a financial audit and an accounting ledger. An accounting ledger reports transactions; a financial audit examines the conditions under which those transactions were recorded, classified, and governed. DSG is the audit discipline for the signal layer.
+The distinction is analogous to the difference between a financial audit and an accounting ledger. An accounting ledger reports transactions; a financial audit examines the conditions under which those transactions were recorded, classified, and governed. DSG examines the governance conditions under which signals are formed, classified, interpreted, and relied upon.
 
 Where analytics asks "what does the data show," DSG asks "under what governance conditions was that data formed, and are those conditions sufficient for the reliance being placed on it?"
 
