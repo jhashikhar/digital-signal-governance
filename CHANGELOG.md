@@ -10,32 +10,14 @@ Versioning follows Semantic Versioning principles adapted for conceptual framewo
 
 ---
 
-## [1.1.1] — 2026-06-09
+## [1.1.2] — 2026-06-09
 
-### DOI Registration
-
-- Registered archival DOI through Zenodo:
-  https://doi.org/10.5281/zenodo.20611372
-- Established a persistent citation record for the Digital Signal Governance (DSG) conceptual framework repository.
-- Added DOI-based repository identification to support long-term archival preservation, discoverability, and academic citation.
-
-### Metadata Updates
+### DOI Metadata Alignment
 
 - Updated README.md citation section to include DOI reference.
 - Updated CITATION.cff metadata to include DOI registration information.
 - Updated schema/metadata.jsonld to include DOI identifier, repository equivalence references, and citation metadata alignment.
-- Improved repository metadata consistency across citation, discoverability, and indexing layers.
-- Added DOI references for repository discoverability, indexing, and citation stability.
-
-### Citation Alignment
-
-- Aligned repository citation metadata across:
-  - README.md
-  - CITATION.cff
-  - schema/metadata.jsonld
-  - Zenodo archival record
-
-- Standardized Version 1.1.1 citation references throughout repository metadata assets.
+- Updated CHANGELOG.md to document DOI registration and metadata alignment.
 - Aligned repository metadata with Zenodo DOI record for long-term archival reference.
 
 ### Framework Status
@@ -51,9 +33,33 @@ No substantive changes were made to:
 - Canonical glossary definitions
 - Governance documentation
 
-Version 1.1.1 remains fully compatible with Version 1.1.0 and represents a metadata, discoverability, archival, and citation-maintenance release only.
+Version 1.1.2 is a metadata, discoverability, archival, and citation-maintenance release only.
 
 No implementation methodologies, operational procedures, technical architectures, proprietary systems, detection mechanisms, enforcement logic, or product capabilities were added or disclosed as part of this release.
+
+---
+
+## [1.1.1] — 2026-06-09
+
+### DOI Archival Release
+
+- Created DOI archival release for long-term preservation and citation support.
+- Registered archival DOI through Zenodo:
+  https://doi.org/10.5281/zenodo.20611372
+- Established a persistent citation record for the Digital Signal Governance (DSG) conceptual framework repository.
+
+### Framework Status
+
+No substantive changes were made to:
+
+- DSG terminology
+- DSG taxonomy
+- Framework principles
+- Boundary definitions
+- Governance assumptions
+- Conceptual scope
+
+Version 1.1.1 remains fully compatible with Version 1.1.0 and represents an archival and citation-maintenance release only.
 
 ---
 
