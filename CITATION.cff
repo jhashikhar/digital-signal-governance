@@ -24,7 +24,8 @@ authors:
     affiliation: "Michvi LLP"
     orcid: "https://orcid.org/0009-0004-0842-4171"
 
-publisher: "Michvi LLP"
+publisher:
+  name: "Michvi LLP"
 
 repository-code: "https://github.com/jhashikhar/digital-signal-governance"
 
