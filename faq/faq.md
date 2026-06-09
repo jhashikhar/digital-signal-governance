@@ -26,7 +26,7 @@ Analytics is a function that consumes signals: it processes, aggregates, visuali
 
 Digital Signal Governance is concerned with the conditions that determine whether those signals are trustworthy in the first place — before they reach an analytics system.
 
-The distinction is analogous to the difference between a financial audit and an accounting ledger. An accounting ledger reports transactions; a financial audit examines the conditions under which those transactions were recorded, classified, and governed. DSG examines the governance conditions under which signals are formed, classified, interpreted, and relied upon.
+Analytics reports and interprets signal-derived outputs. DSG examines the governance conditions under which signals are formed, classified, interpreted, and relied upon.
 
 Where analytics asks "what does the data show," DSG asks "under what governance conditions was that data formed, and are those conditions sufficient for the reliance being placed on it?"
 
