@@ -5,6 +5,16 @@ Published by Shikhar Jha in association with Michvi LLP
 
 ---
 
+## Citation
+
+DOI: https://doi.org/10.5281/zenodo.20611372
+
+Digital Signal Governance (DSG): Conceptual Framework Repository
+Shikhar Jha (Michvi LLP)
+Version 1.1.1
+
+---
+
 ## What Is Digital Signal Governance?
 
 Digital Signal Governance (DSG) is a governance framework that examines the conditions under which signals are **generated, admitted, interpreted, propagated, and relied upon** across digital systems.
