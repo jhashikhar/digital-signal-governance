@@ -11,7 +11,7 @@ DOI: https://doi.org/10.5281/zenodo.20611372
 
 Digital Signal Governance (DSG): Conceptual Framework Repository
 Shikhar Jha (Michvi LLP)
-Version 1.1.1
+Version 1.1.2
 
 ---
 
@@ -114,7 +114,7 @@ To cite this repository in academic, professional, or regulatory work:
 
 ```
 Jha, Shikhar. (2026).
-Digital Signal Governance: Conceptual Framework Repository (Version 1.1.1).
+Digital Signal Governance: Conceptual Framework Repository (Version 1.1.2).
 DOI: https://doi.org/10.5281/zenodo.20611372
 GitHub repository: https://github.com/jhashikhar/digital-signal-governance
 
@@ -190,4 +190,4 @@ For framework discussion, citation inquiries, research collaboration, or governa
 ---
 *Digital Signal Governance Conceptual Framework Repository*  
 *Published by Shikhar Jha in association with Michvi LLP*  
-*Version 1.1.1*
+*Version 1.1.2*
