@@ -24,18 +24,19 @@ authors:
     affiliation: "Michvi LLP"
     orcid: "https://orcid.org/0009-0004-0842-4171"
 
-publisher:
-  name: "Michvi LLP"
+publisher: "Michvi LLP"
 
 repository-code: "https://github.com/jhashikhar/digital-signal-governance"
 
 url: "https://github.com/jhashikhar/digital-signal-governance"
 
-version: 1.1.0
+version: 1.1.1
+
+doi: "10.5281/zenodo.20611372"
 
 license: "Digital Signal Governance Public Conceptual Reference License"
 
-date-released: "2026-06-08"
+date-released: "2026-06-09"
 
 keywords:
   - digital signal governance
@@ -71,11 +72,13 @@ preferred-citation:
 
   title: "Digital Signal Governance: Conceptual Framework Repository"
 
-  version: 1.1.0
-
+  version: 1.1.1
+   
   year: 2026
 
   url: "https://github.com/jhashikhar/digital-signal-governance"
+
+  doi: "10.5281/zenodo.20611372"
 
   notes: >-
     Public conceptual framework repository published by Shikhar Jha
