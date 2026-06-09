@@ -165,7 +165,7 @@ Licensing terms for this repository are defined in the accompanying [`LICENSE`](
 
 Unless explicitly stated otherwise, this repository is published for public reference, citation, and conceptual discussion only.
 
-Publication of conceptual framework material does not imply transfer, assignment, disclosure, access to, or licensing of independently owned intellectual property, implementation systems, technical architectures, operational methodologies, or proprietary product capabilities..
+Publication of conceptual framework material does not imply transfer, assignment, disclosure, access to, or licensing of independently owned intellectual property, implementation systems, technical architectures, operational methodologies, or proprietary product capabilities.
 
 ---
 
