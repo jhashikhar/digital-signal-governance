@@ -13,7 +13,7 @@ For exclusionary boundary conditions, see `what-dsg-is-not.md`.
 
 ## DSG Is a Governance Framework for the Signal Layer
 
-Digital Signal Governance is a **structured framework** for understanding, classifying, and assessing the governance conditions that affect digital signals — the data points that digital systems generate, collect, and consume in order to represent events, entities, and states.
+Digital Signal Governance is a **conceptual governance framework** for understanding, classifying, and assessing the governance conditions that affect digital signals — the data points that digital systems generate, collect, and consume in order to represent events, entities, and states.
 
 DSG is a governance framework, not a technical framework. It addresses conditions — structural, institutional, documentary, and relational — that determine whether signals are trustworthy and appropriately governed for downstream reliance. It does not address how systems are built to produce or consume signals.
 
