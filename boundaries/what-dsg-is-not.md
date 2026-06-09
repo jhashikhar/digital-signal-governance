@@ -1,7 +1,7 @@
 # What Digital Signal Governance Is Not
 
 **Digital Signal Governance — Boundary Document**
-Published by Shikhar Jha in association with Michvi LLP
+Published by Shikhar Jha in association with Michvi LLP | Version 1.1.0
 
 ---
 
