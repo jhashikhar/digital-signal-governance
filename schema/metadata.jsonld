@@ -15,10 +15,10 @@
   "description": "A public conceptual framework repository documenting terminology, taxonomy, and boundary conditions for Digital Signal Governance (DSG), a governance framework addressing conditions under which signals are generated, admitted, interpreted, propagated, and relied upon across digital systems.",
   "abstract": "Digital Signal Governance (DSG) examines governance conditions affecting how signals are generated, admitted, interpreted, propagated, and relied upon across digital systems. DSG is positioned upstream of reporting, attribution, optimization, and automation. This repository provides foundational definitions, taxonomic structure, and boundary documentation for the DSG category.",
   "url": "https://github.com/jhashikhar/digital-signal-governance",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "inLanguage": "en",
   "isAccessibleForFree": true,
-  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license": "https://github.com/jhashikhar/digital-signal-governance/blob/main/LICENSE.md"  
   "learningResourceType": "Governance Framework",
   "educationalUse": [
     "Research",
@@ -70,7 +70,7 @@
     "name": "Michvi LLP"
   },
   "datePublished": "2026-05-13",
-  "dateModified": "2026-05-13",
+  "dateModified": "2026-05-09",
   "citation": "Jha, Shikhar. (2026). Digital Signal Governance: Conceptual Framework Repository (Version 1.0.0). GitHub repository. Published by Shikhar Jha in association with Michvi LLP.",
   "subjectOf": [
     {
@@ -158,11 +158,6 @@
           "name": "Interpretive Integrity",
           "termCode": "interpretive-integrity"
         },
-        {
-          "@type": "DefinedTerm",
-          "name": "Design-Time Governance",
-          "termCode": "design-time-governance"
-        }
       ]
     }
   ]
