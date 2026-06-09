@@ -15,7 +15,7 @@ This document defines the relationship precisely — where the two disciplines o
 
 ## Definitions
 
-**Design-Time Governance:** For the purposes of this document, the term refers to governance considerations applied during the design and configuration phase of digital environments, prior to operational deployment and the commencement of signal generation
+**Design-Time Governance:** For the purposes of this document, the term refers to governance considerations applied during the design and configuration phase of digital environments, prior to operational deployment and the commencement of signal generation.
 
 **Digital Signal Governance (DSG)** refers to governance conditions affecting how signals are generated, admitted, interpreted, propagated, and relied upon across digital systems in operation.
 
