@@ -56,6 +56,11 @@
     "name": "Michvi LLP",
     "url": "https://michvi.com"
   },
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "name": "Digital Signal Governance Canonical Glossary",
+    "url": "https://github.com/jhashikhar/digital-signal-governance/blob/main/glossary/glossary.md"
+  },
   "datePublished": "2026-05-13",
   "dateModified": "2026-06-09",
   "version": "1.1.0",
