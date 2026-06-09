@@ -1,6 +1,6 @@
 # Category Positioning
 
-**Digital Signal Governance — Documentation**
+**Digital Signal Governance — Documentation**  
 Published by Shikhar Jha in association with Michvi LLP | Version 1.1.0
 
 ---
