@@ -1,7 +1,7 @@
 # Relation to Design-Time Governance
 
-**Digital Signal Governance — Boundary Document**
-Published by Shikhar Jha in association with Michvi LLP
+**Digital Signal Governance — Boundary Document**  
+Published by Shikhar Jha in association with Michvi LLP | Version 1.1.0
 
 ---
 
@@ -15,7 +15,7 @@ This document defines the relationship precisely — where the two disciplines o
 
 ## Definitions
 
-**Design-Time Governance:** For the purposes of this document, the term refers to governance considerations applied at the stage when systems, data architectures, and signal environments are being designed or configured — prior to operational deployment and the commencement of signal generation.
+**Design-Time Governance:** For the purposes of this document, the term refers to governance considerations applied during the design and configuration phase of digital environments, prior to operational deployment and the commencement of signal generation
 
 **Digital Signal Governance (DSG)** refers to governance conditions affecting how signals are generated, admitted, interpreted, propagated, and relied upon across digital systems in operation.
 
