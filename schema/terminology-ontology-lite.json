@@ -4,9 +4,9 @@
     "id": "https://github.com/jhashikhar/digital-signal-governance/schema/terminology-ontology-lite",
     "title": "Digital Signal Governance Terminology Ontology (Lite)",
     "description": "Defines canonical DSG categories, terminology relationships, and conceptual hierarchy for machine-readable consumption.",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "maintainer": "Michvi LLP",
-    "license": "https://creativecommons.org/licenses/by/4.0/"
+    "license": "https://github.com/jhashikhar/digital-signal-governance/blob/main/LICENSE.md"
   },
   "categories": [
     {
@@ -64,15 +64,6 @@
         "structural-drift",
         "observability-gaps"
       ]
-    },
-    {
-      "id": "adjacent-framework",
-      "label": "Adjacent Framework",
-      "description": "Governance frameworks related to but distinct from DSG",
-      "parent": null,
-      "terms": [
-        "design-time-governance"
-      ]
     }
   ],
   "relationships": [
@@ -90,11 +81,6 @@
       "type": "manifests_as",
       "label": "Manifests As",
       "description": "Failure of Term A's governance condition commonly produces Term B as a consequence"
-    },
-    {
-      "type": "adjacent_to",
-      "label": "Adjacent To",
-      "description": "Term A belongs to a related but distinct discipline from Term B"
     },
     {
       "type": "related_to",
@@ -139,19 +125,14 @@
       "type": "related_to"
     },
     {
-      "from": "identity-continuity",
-      "to": "consent-architecture",
-      "type": "depends_on"
+      "from": "identity-fragmentation",
+      "to": "identity-continuity",
+      "type": "related_to"
     },
     {
       "from": "identity-fragmentation",
       "to": "governance-exposure",
       "type": "manifests_as"
-    },
-    {
-      "from": "identity-fragmentation",
-      "to": "identity-continuity",
-      "type": "related_to"
     },
     {
       "from": "consent-architecture",
@@ -197,26 +178,6 @@
       "from": "observability-gaps",
       "to": "governance-exposure",
       "type": "related_to"
-    },
-    {
-      "from": "design-time-governance",
-      "to": "consent-architecture",
-      "type": "precedes"
-    },
-    {
-      "from": "design-time-governance",
-      "to": "measurement-architecture",
-      "type": "precedes"
-    },
-    {
-      "from": "design-time-governance",
-      "to": "identity-continuity",
-      "type": "precedes"
-    },
-    {
-      "from": "design-time-governance",
-      "to": "signal-admission",
-      "type": "precedes"
     }
   ]
 }
