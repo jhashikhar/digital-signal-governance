@@ -16,7 +16,7 @@ A "signal" in the DSG sense is any digital datum that a system generates, collec
 
 DSG asks: **Under what governance conditions was that signal generated, admitted, interpreted, propagated, and relied upon?** Is it well-formed? Does it mean what users of the signal assume it means? Was it generated under valid consent? Does the identity it references remain continuous and coherent? Are the measurement rules that govern it documented and consistently applied?
 
-DSG addresses these questions at the structural layer — before signals are consumed by reporting tools, attribution models, optimization engines, or automated decision systems. It is a discipline of governance upstream of operations.
+DSG addresses these questions at the structural layer — before signals are consumed by reporting tools, attribution models, optimization engines, or automated decision systems.It is a governance framework operating upstream of reporting, attribution, optimization, automation, and other downstream operational functions.
 
 ---
 
